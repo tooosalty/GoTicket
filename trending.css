@@ -1,0 +1,616 @@
+#body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1d2130;
+    min-height: 100%;
+    background-color: #efefef;
+}
+#tmHeader {
+  width: 100%;
+  height: auto;
+  background: rgb(34, 3, 62);
+  padding: 25px 20px 55px;
+  margin: 0px auto 20px;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  top: -10px;
+}
+#tmLogo {
+  width: 200px;
+  height: auto;s
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+#tmLogo img {
+  width: 160%;
+  height: auto;
+  margin: 0px auto;
+  padding-left: 95px;
+
+}
+#tmSearch {
+  width: 450px;
+  height: 35px;
+  margin: 0px auto;
+  padding: 7px 0px 0px 0px;
+  display: inline-block;
+  float: right;
+  background: #d9317c;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Open Sans", "Averta", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+---------
+@media only screen and (min-width: 0px) and (max-width: 999px) {
+    .frame {
+      width: 100% !important;
+      background-color: #201547 !important;
+    } /*FIX FOR TM HEADER CODE*/
+    #mainContent {
+      background-color: #201547 !important;
+      padding: 0px 0px 0px 0px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .frame {
+      width: 100% !important;
+    } /*FIX FOR TM HEADER CODE */
+    #mainContent {
+      padding: 0px 0px 0px 0px !important;
+      background-color: #201547 !important;
+    }
+    body {
+      background-color: rgba(98, 47, 141, 1);
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    #sresContent {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin: 0px auto;
+      background: url("https://s1.ticketm.net/tm/en-au/img/static/sres/2021/sres_wood_bg.jpg")
+          repeat-y top center,
+        #fff;
+      background-size: contain;
+      padding: 0px 0px 0px 0px;
+      z-index: 9;
+      box-sizing: border-box !important;
+    }
+    #sresHeader {
+      width: 100%;
+      height: 500px;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 10px solid rgba(98, 47, 141, 1);
+    }
+    #sresHeader video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 10;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    #sresLogo {
+      width: 850px;
+      height: auto;
+      bottom: 600px;
+      margin: 0 auto 0;
+      display: block;
+      transform: translateY(50%);
+      position: relative;
+      z-index: 11;
+    }
+    #sresLogo img {
+      width: 100%;
+      height: auto;
+      position: relative;
+      z-index: 11;
+    }
+  
+    #sresMenu {
+      width: 100%;
+      height: auto;
+      margin: 0px;
+      display: block;
+      position: relative;
+      background: rgba(98, 47, 141, 1);
+      box-sizing: border-box !important;
+      text-align: center;
+    }
+    #sresMenu button {
+      font-family: "Averta", sans-serif;
+      font-size: 20px;
+      text-align: center;
+      margin: 0px 10px;
+      padding: 8px 2px;
+      font-weight: bold;
+      color: #fff;
+      border: 0;
+      outline: 0;
+      background: none;
+      cursor: pointer;
+    }
+    .sresMenuToggle {
+      position: fixed !important;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 12;
+    }
+    /**/
+    .sresCalDay {
+      width: 80px;
+      height: 80px;
+      display: inline-block;
+      box-sizing: border-box !important;
+      border: 4px solid #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px 2px 0px 2px;
+      box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 45%);
+    }
+    .sresCalHighlight {
+      background: rgba(98, 47, 141, 1);
+    }
+    .sresCalDay h1 {
+      font-family: "Averta", sans-serif;
+      font-size: 26px;
+      text-align: center;
+      margin: -4px 0px 0px 0px;
+      padding: 0px;
+      font-weight: bold;
+      color: rgba(98, 47, 141, 1);
+      background: #fff;
+    }
+    .sresCalDay h2 {
+      font-family: "Averta", sans-serif;
+      font-size: 40px;
+      text-align: center;
+      margin: -8px 0px 0px 0px;
+      padding: 0px;
+      font-weight: bold;
+      color: #fff;
+    }
+    #sresCalWrap {
+      width: 1100px;
+      height: auto;
+      margin: 0px auto 0px;
+      position: relative;
+      text-align: center;
+      padding: 0px 0px 30px 0px;
+    }
+    #sresCalWrap h3 {
+      font-family: "Averta", sans-serif;
+      font-size: 40px;
+      text-align: center;
+      margin: 80px auto 20px;
+      padding: 0px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .sresWeekendTag {
+      width: 350px;
+      height: auto;
+      position: absolute;
+      left: 110px;
+      bottom: -5px;
+    }
+    .sresWeekendTag img {
+      width: 100%;
+      height: auto;
+    }
+    .sresEventTitle {
+      width: 96%;
+      max-width: 1056px;
+      height: auto;
+      background: transparent;
+      border-radius: 5px;
+      border: 2px solid #fff;
+      font-family: "Averta", sans-serif;
+      font-size: 32px;
+      text-align: center;
+      margin: 50px auto 10px;
+      font-weight: bold;
+      color: #fff;
+      box-sizing: border-box !important;
+      text-transform: uppercase;
+      box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 45%);
+    }
+    .sresEventTitle sup {
+      font-size: 20px;
+    }
+    /*day cards*/
+    #sresEventWrap,
+    #sresSpecialEventWrap {
+      width: 1100px;
+      height: auto;
+      margin: 0px auto;
+      position: relative;
+      text-align: center;
+    }
+    .sresEventCard {
+      width: 330px;
+      height: 490px;
+      margin: 10px 15px;
+      display: inline-block;
+      border-radius: 5px;
+      box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 45%);
+      overflow: hidden;
+      background: rgba(98, 47, 141, 1);
+      position: relative;
+      z-index: 11;
+    }
+    .sresEventHero {
+      width: 330px;
+      height: 175px;
+      position: relative;
+      z-index: 11;
+    }
+    .sresEventHero img {
+      width: 100%;
+      height: auto;
+    }
+    .sresEventCard h1 {
+      font-family: "Averta", sans-serif;
+      font-size: 32px;
+      text-align: center;
+      margin: 10px auto 10px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .sresEventDate {
+      width: 130px;
+      background: transparent;
+      padding: 2px;
+      border-radius: 5px;
+      font-family: "Averta", sans-serif;
+      font-size: 16px;
+      text-align: center;
+      margin: 10px auto 10px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      border: 2px solid #fff;
+    }
+    .sresTicketType {
+      width: 180px;
+      background: #fff;
+      padding: 2px;
+      border-radius: 5px;
+      font-family: "Averta", sans-serif;
+      font-size: 16px;
+      text-align: center;
+      margin: 10px auto 10px;
+      font-weight: bold;
+      color: #000;
+      text-transform: uppercase;
+    }
+    .sresEventCard p {
+      font-family: "Averta", sans-serif;
+      font-size: 16px;
+      text-align: center;
+      padding: 0px 20px;
+      margin: 10px auto 10px;
+      font-weight: normal;
+      color: #fff;
+    }
+    .sresBtn {
+      width: 310px;
+      margin: 0px auto;
+      padding: 4px 0px;
+      background: #fdb94d;
+      font-family: "Averta", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      color: #000;
+      border-radius: 5px;
+      bottom: 10px;
+      left: 0px;
+      right: 0px;
+      position: absolute;
+    }
+    .sresBestSeat {
+      width: 245px;
+      background: #fff;
+      padding: 2px 20px 2px 2px;
+      border-radius: 15px;
+      font-family: "Averta", sans-serif;
+      font-size: 16px;
+      text-align: center;
+      margin: 20px auto 10px;
+      font-weight: bold;
+      color: #622f8d;
+      text-transform: uppercase;
+      position: relative;
+      box-sizing: border-box !important;
+      cursor: pointer;
+    }
+    .sresBestSeat img {
+      width: 22px;
+      height: 22px;
+      display: inline-block;
+      margin: 0px 0px 0px 0px;
+      position: absolute;
+      right: 3px;
+      top: 2px;
+    }
+    /*tags*/
+    .sresAvailTag {
+      background: #fdb94d;
+      width: 155px;
+      height: auto;
+      font-family: "Averta", Fallback, sans-serif;
+      font-size: 12px;
+      color: #000;
+      text-align: center;
+      font-weight: bold;
+      box-sizing: border-box !important;
+      border-radius: 5px;
+      padding: 4px 10px 4px 10px;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+    }
+
+    /*light box*/
+    .sresLightBox {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: block;
+      z-index: 100;
+      display: none;
+    }
+    .sresLbMod {
+      width: 500px;
+      height: auto;
+      box-shadow: 0px 0px 9px 5px rgb(0 0 0 / 45%);
+      overflow: hidden;
+      background: rgba(98, 47, 141, 1);
+      position: relative;
+      border-radius: 5px;
+      margin: 0px auto;
+      padding: 0px 0px 20px 0px;
+      transform: translateY(50%);
+    }
+    .sresLbMod h1 {
+      font-family: "Averta", sans-serif;
+      font-size: 32px;
+      text-align: center;
+      margin: 10px auto 10px;
+      font-weight: bold;
+      color: #fff;
+      display: inline-block;
+      width: 100%;
+    }
+    .sresLbMod p {
+      font-family: "Averta", sans-serif;
+      font-size: 16px;
+      text-align: center;
+      padding: 0px 20px;
+      margin: 10px auto 10px;
+      font-weight: normal;
+      color: #fff;
+    }
+    .sresLbHero {
+      width: 500px;
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      z-index: 101;
+    }
+    .sresLbHero img {
+      width: 100%;
+      height: auto;
+    }
+    .sresCloseBtn {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 102;
+      cursor: pointer;
+    }
+    .sresCloseBtn img {
+      width: 40px;
+      height: 40px;
+    }
+    /*footer*/
+    #sresFooter {
+      width: 100%;
+      height: auto;
+      margin: 50px 0px 0px 0px;
+      padding: 10px 0px;
+      display: block;
+      position: relative;
+      background: rgba(98, 47, 141, 1);
+      box-sizing: border-box !important;
+      text-align: center;
+    }
+    #sresFooter img {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      margin: 0px 20px;
+    }
+  }
+  /*mobile*/
+  @media only screen and (max-width: 1000px) {
+    /*TM HEADER */
+    #tmHeader {
+      width: 100%;
+      height: auto;
+      background: #026cdf;
+      padding: 25px 0px 25px 20px;
+      margin: 0px auto 5px;
+      box-sizing: border-box;
+      display: block;
+      position: relative;
+    }
+    #tmLogo {
+      width: 200px;
+      height: auto;
+      display: block;
+    }
+    #tmLogo img {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0px auto;
+    }
+    #tmSearch {
+      display: none;
+    }
+  }
+  
+--------
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    overflow-x: hidden ;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #footer{
+    min-height: 350px;
+    margin-top: 100px;
+    background-color: rgb(34, 3, 62);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container{
+    width: 1600px;
+    margin: auto;
+  }
+  
+  .subcontainer{
+    width: 85%;
+    margin: auto;
+  }
+  
+  .footer-wrapper{  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 2;
+  }
+  
+  .footer-box h1{
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .footer-box address{
+    color: rgb(156, 152, 152);
+    font-style: normal;
+    line-height: 2;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    color: rgb(156, 152, 152);
+  }
+  
+  .info a{
+    color: rgb(156, 152, 152);
+    text-decoration: none;
+  }
+  
+  .info span{
+    color: white;
+  }
+  
+  .brand{
+    color: white;
+    margin-top: -25px;
+  }
+  
+  .rights{
+    padding-top: 50px;
+    color: gray;
+  }
+  
+  .fb1{
+    width: 300px;
+  }
+  
+  .fb2, .fb3, .fb4, .fb5{
+    width: fit-content;
+    line-height: 2;
+  }
+  
+  .social-media{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-media a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+  }
+  
+  @media(max-width:1600px){
+    .container{
+      width: 100%;
+    }
+  }
+  
+  @media(max-width:1024px){
+    .footer-wrapper{
+      padding: 20px 0;
+      flex-direction: column;
+    }
+  
+    .fb1{
+      width: 100%;
+    }  
+  
+    .rights{
+      padding-bottom: 25px;
+    }
+  }

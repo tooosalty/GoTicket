@@ -1,0 +1,2432 @@
+body{
+    background-color:#c6b0ea;
+    -webkit-font-smoothing: antialiased;
+    font-family: helvetica, arial, sans-serif;
+    min-width: 1450px;
+    width: 1450px;
+}
+#titlePic{
+    width: 200px;
+    position: relative;
+    margin-left: -29%;
+    padding-left: 55px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 19px;
+    background-color: #8445e9;
+}
+#everything{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: Averta, helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #c6b0ea;
+}
+#NavBar{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-box-align: stretch;
+    -webkit-font-smoothing: antialiased;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    height: 79.29826px;
+    width: 1450px;
+    background-color: #8445e9;
+}
+
+#logobc{
+    line-height: 25.2px;
+    color: rgb(38, 38, 38);
+    font-family: helvetica, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    padding-right: 8px;
+    height: 79.29826px;
+    width: 197.969px;
+    text-size-adjust: 100%;
+}
+#logo{
+    line-height: 25.2px;
+    color: rgb(38, 38, 38);
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    -webkit-box-align: stretch;
+    -webkit-box-flex: 1;
+    align-items: stretch;
+    padding-right: 0px; 
+    height: 79.29826px;
+    width: 189.974px;
+    text-size-adjust: 100%;  
+}
+#mainMenu{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: helvetica, arial, sans-serif;;
+    line-height: 25.2px;
+    font-stretch: 100%;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: none;
+    z-index: 1;
+    margin-right: 4px;
+    margin-left: -10px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    background: transparent;
+    display: none;
+    line-height: 25.2px;
+    align-items: flex-start;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    appearance: auto;
+}
+#burgericon{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: helvetica, arial, sans-serif;;
+    line-height: 25.2px;
+    font-stretch: 100%;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: none;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: middle;
+    transition: transform 0.2s ease-out 0s;
+    margin: 10px;
+    fill: rgb(255, 255, 255);
+    height: 27px;
+    width: 27px;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    appearance: auto;
+}
+#logolink{
+    line-height: 25.2px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: rgb(2, 108, 223);
+    text-decoration: underline;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: -10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    height: 79.29826px;
+    width: 199.974px;
+    cursor: pointer;
+}
+#visuallyhidden{
+    line-height: 25.2px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    color: rgb(2, 108, 223);
+    box-sizing: border-box;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    display: block;
+}
+#NavCatergories{
+    line-height: 25.2px;
+    color: rgb(38, 38, 38);
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    align-self: stretch;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    visibility: visible;
+    position: relative;
+    width: 1134.05px;
+    height: 79.9826px;
+    cursor: pointer;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  
+  }
+  .searchTerm {
+    width: 100%;
+    border: 3px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+  }
+  .searchTerm:focus{
+    color: black;
+  }
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 55%;
+    left: 29%;
+    width: 485px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+  }
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+.menu .menu-item {
+    position: relative;
+    cursor: pointer;
+  }
+  .menu .menu-item .wee {
+    height: 2px;
+    width: 100%;
+    background-color: #4d86e9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.75s;
+  }
+  .menu .menu-item h6 {
+    margin: 0;
+    padding: 0 1rem -1.5rem;
+    color: black;
+    transition: 0.75s;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 44px;
+    padding: 0px 10px;
+    font-family: helvetica, arial, sans-serif;
+    margin-left: -60px;
+    
+  }
+.menu .menu-item:hover h6 {
+    color: #82a5e0;
+  }
+.menu .current-menu-item h6 {
+    color: #82a5e0;
+  }
+
+  
+#trendinglink{
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: border-box;
+    margin: initial;
+    font-size: 18px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: normal;
+    text-transform: none;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 8px;
+    font-weight: 600;
+    line-height: 44px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 64.875px;
+    height: 79.9826px;
+    position: absolute;
+    cursor: pointer;
+    white-space: nowrap;
+    color: black;
+    left: 90px;
+    padding-bottom: 400px;
+
+}
+#sportlink{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 8px;
+    font-weight: 600;
+    line-height: 44px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 217.24px;
+    height: 79.9826px;
+    font-family: helvetica, arial, sans-serif;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    left: 210px;
+    padding-bottom: 400px;
+}
+#sellinglink{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: border-box;
+    margin: initial;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 8px;
+    left: 310px;
+    padding-bottom: 400px;
+    font-weight: 600;
+    line-height: 44px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 187.569px;
+    height: 79.9826px;
+    font-family: helvetica, arial, sans-serif;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+}
+#ticketinglink{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    visibility: visible;
+    box-sizing: border-box;
+    margin: initial;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    left: 450px;
+    padding-bottom: 100px;
+    line-height: 44px;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    width: 27.24px;
+    height: 9.9826px;
+    font-family: helvetica, arial, sans-serif;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+}
+#searchartistOuterbc{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+    margin-bottom: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    box-shadow: rgba(0, 0, 0, 0.3) -4px 4px 8px 0px;
+    height: 162.396px;
+    width: 1450px;
+}
+#searchartistInnerbc{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    height: 114.41px;
+    width: 950px;
+}
+#resulttext{
+    line-height: 25.2px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(100, 100, 100);
+    padding-left: 16px;
+    font-size: 18px;
+    display: inline;
+    height: auto;
+    width: auto;  
+}
+#SearchOfArtistName{
+    line-height: 75.6px;
+    color: rgb(38, 38, 38);
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(191, 191, 191);
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    font-size: 54px;
+    height: 120px;
+    width: 900px;
+}
+#SearchInput{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 1;
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+    color: rgb(165, 30, 248);
+    font-size: 54px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    cursor: text;
+    text-rendering: auto;
+    writing-mode: horizontal-tb;
+    appearance: none;
+    padding: 8px 0px 8px 16px;
+    text-overflow: ellipsis;
+    height: 88.5px;
+    width: 1230.62px;
+}
+#xiconbc{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: initial;
+    border: 0px;
+    color: black;
+    font-size: 54px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    line-height: 75.6px;
+    letter-spacing: normal;
+    text-align: start;
+    background-color: transparent;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: flex-start;
+    display: block;
+    height: 48.3854px;
+    width: 48.3854px;
+    text-rendering: auto;
+    writing-mode: horizontal-tb;
+    appearance: auto;
+    border-image-repeat: stretch;
+}
+#xicon{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-size: 54px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    line-height: 75.6px;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: none;
+    cursor: pointer;
+    height: 32.3958px;
+    width: 32.3958px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    transition: transform 0.2s ease-out 0s;
+    display: block;
+    text-rendering: auto;
+    writing-mode: horizontal-tb;
+    appearance: auto;
+    fill: rgb(100, 100, 100);
+}
+#clear1{
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    color: inherit;
+    font-size: 54px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    line-height: 75.6px;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: inherit;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0px, 0px, 0px, 0px);
+    clip-path: inset(50%);
+    text-rendering: auto;
+    writing-mode: horizontal-tb;
+    appearance: auto;
+    display: block;
+    position: absolute;
+}
+#magglassicon{
+    -webkit-font-smoothing: antialiased;
+    color: rgb(38, 38, 38);
+    font-size: 54px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    line-height: 75.6px;
+    height: 54px;
+    width: 54px;
+    box-sizing: border-box;
+    margin-right: 27px;
+    flex-shrink: 0;
+    vertical-align: middle;
+    transition: transform 0.2s ease-out 0s;
+    display: flex;
+    margin-left: 545px;
+    fill: rgb(155, 116, 252);
+    text-size-adjust: none;
+    align-items: center;
+    min-width: 1450px;
+    position: relative;
+}
+#wholemain{
+    box-sizing: border-box;
+    display: flex;
+    height: 1037.67px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    position: relative;
+    width: 1440px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#maincontent{
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 1;
+    height: 1021.67px;
+    min-height: 196.8px;
+    padding-right: 16px;
+    width: 1028px;
+    width: calc(100% - 332px);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-flex: 1;
+}
+#visuallyhidden2{
+    box-sizing: border-box;
+    clip: rect(0px, 0px, 0px, 0px);
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    white-space: nowrap;   
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#mainsection{
+    box-sizing: border-box;
+    display: block;
+    height: 1005.67px;
+    width: 1012px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#firstsectionmain{
+    box-sizing: border-box;
+    display: block;
+    height: 357.828px;
+    width: 1012px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px 3px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#upperfirstsectionmain{
+    box-sizing: border-box;
+    display: block;
+    height: 57.1953px;
+    width: 1012px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    background-color: rgb(236, 234, 234);
+    -webkit-font-smoothing: antialiased;
+}
+#upperfirstsectiontext{
+    box-sizing: border-box;
+    display: block;
+    height: 25.1953px;
+    width: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    font-weight: bold;   
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#lowerfirstsectionmain{
+    box-sizing: border-box;
+    display: block;
+    height: 300.633px;
+    width: 1012px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    background-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+}
+#innerlowerfirstsectionmain{
+    box-sizing: border-box;
+    display: block;
+    height: 284.633px;
+    width: 1012px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-bottom: -16px;
+    padding-bottom: 1em;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#leftsidefirstsectionmain{
+    box-sizing: border-box;
+    display: flex;
+    height: 268.633px;
+    width: 996px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    padding-inline-start: 40px;
+    list-style: none;
+    margin: 0px 8px;
+    padding: 0px;   
+}
+#imagetextcontent1{
+    box-sizing: border-box;
+    display: list-item;
+    flex-shrink: 0;
+    height: 268.633px;
+    width: 249px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+}
+#picturelink{
+    box-sizing: border-box;
+    display: block;
+    height: 268.633px;
+    width: 233px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+#wholeimagecontent{
+    box-sizing: border-box;
+    display: block;
+    height: 171.836px;
+    width: 233px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: -12px;
+    margin-right: -12px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 2px 0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    cursor: pointer;
+    transition: box-shadow 0.4s cubic-bezier(0.1, 0.85, 0.25, 1) 0s;
+}
+#imagecontent{
+    box-sizing: border-box;
+    display: block;
+    height: 171.836px;
+    width: 233px;
+    padding-bottom: 171.836px;
+    border-radius: 2px;
+    position: relative;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(38, 38, 38);
+    background-color: white;
+    background-size: 100%;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px; 
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+#imageofyeat{
+    box-sizing: border-box;
+    display: block;
+    height: 171.836px;
+    width: 233px;
+    position: absolute;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style-type: none;
+    cursor: pointer;
+    object-fit: contain;
+
+}
+#musicgenre{
+    box-sizing: border-box;
+    display: block;
+    height: 22.3894px;
+    width: 209px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+    list-style-type: none;
+    cursor: pointer;
+}
+#artistname{
+    box-sizing: border-box;
+    display: block;
+    height: 28px;
+    width: 209px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    text-align: left;  
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 4px;
+    margin-block-start: 8px;
+}
+#numberresults{
+    box-sizing: border-box;
+    display: block;
+    height: 22.3894px;
+    width: 209px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;  
+    text-align: left;  
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+    list-style-type: none;
+    cursor: pointer;
+}
+#pageinfo{
+    box-sizing: border-box;
+    display: block;
+    height: 615.844px;
+    width: 1012px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-bottom: 24px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#upper2sectionmain{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60.5px;
+    min-height: 60px;
+    justify-content: space-between;
+    width: 1012px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%;    
+    color: rgb(38, 38, 38);
+    background-color: rgb(246, 246, 246);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    border-radius: 4px 4px 0px 0px;
+}
+#upcomingeventsinfo{
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 1;
+    flex-basis: 33%;
+    height: 22.3984px;
+    width: 571.703px;
+    margin: 0px 4px 0px 0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+#numberEvents{
+    box-sizing: border-box;
+    display: inline;
+    height: auto;
+    width: auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 900;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+}
+#selectDateOuter{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-top: 0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    border-radius: 4px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    -webkit-box-flex: 1;
+}
+#selectDate{
+    box-sizing: border-box;
+    display: block;
+    height: 36.5px;
+    width: 156px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#SingleDatePicker{
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    height: 36.5px;
+    width: 156px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#SingleDatePickerInput{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    height: 36.5px;
+    width: 156px;
+    border-radius: 0px;
+    border: 1px solid rgb(191, 191, 191);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+}
+#SingleDatePickerInput_calanderIcon{
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: block;
+    height: 25.016px;
+    width: 44px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: none;
+    background-color: transparent;
+    border: 0px;
+    margin: initial;
+    padding: initial;
+}
+#CalanderIconStyle{
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: none;
+    color: rgb(38, 38, 38);
+    margin: 0px 10px;
+    padding: 3px;
+    fill: rgb(2, 108, 223);
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+#visuallyhidden2{
+    box-sizing: border-box;
+    clip: rect(0px, 0px, 0px, 0px);
+    display: block;
+    position: absolute;
+    height: 1x;
+    width: 1px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    letter-spacing: normal;
+    text-align: start;
+    text-transform: none;
+    text-rendering: auto;
+    cursor: default;
+    white-space: nowrap;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+}
+#DateInput{
+    box-sizing: border-box;
+    display: block;
+    height: 34.5px;
+    width: 110px;
+    border-radius: 0px;
+    border: 1px solid rgb(191, 191, 191);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    margin: 0px;
+    padding: 0px;   
+}
+#date{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 34.5px;
+    width: 110px;
+    border-radius: 0px;
+    border: 1px solid rgb(191, 191, 191);
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center; 
+    background-color: transparent;
+    text-overflow: ellipsis;  
+    padding: 8px 0px;
+    border: 0px;
+    text-rendering: auto;
+    font-weight: normal;
+}
+#DateInput__screen-reader-message-date{
+    box-sizing: border-box;
+    clip: rect(0px, 0px, 0px, 0px);
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    border: 0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#ClearDate{
+   align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow: visible;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    font-style: normal;
+    font-stretch: 100%;
+    font-variant: normal;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    background: 0px 0px;
+    -webkit-font-smoothing: antialiased;
+    transform: translateY(-50%);
+    cursor: pointer;
+    visibility: hidden;
+}
+#CrossIcon{
+     box-sizing: border-box;
+     display: inline-block;
+     flex-shrink: 0;
+     width: 24px;
+     height: 24px;
+     padding: 4px;
+     font-family: helvetica, arial, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22.4px;
+     font-style: normal;
+     font-stretch: 100%;
+     font-variant: normal;
+     text-size-adjust: 100%; 
+     color: rgb(38, 38, 38);
+     -webkit-font-smoothing: antialiased;
+     visibility: hidden;
+     vertical-align: middle;
+     fill: rgb(2, 108, 223);
+     cursor: pointer;
+     transition: transform 0.2s ease-out 0s;
+}
+#resultstab1main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 531.344px;
+    width: 1012px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#RegionTitleOuter{
+    box-sizing: border-box;
+    display: block;
+    height: 63.5938px;
+    width: 1012px;
+    padding: 16px 16px 0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.4;
+}
+#RegionTitle{
+    box-sizing: border-box;
+    display: block;
+    height: 25.1953px;
+    width: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 25.2px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.4;
+}
+#EventsTitle{
+    box-sizing: border-box;
+    display: inline;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-size-adjust: 100%; 
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+}
+#resultstab2main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 467.75px;
+    width: 1012px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-transform: uppercase;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#eventList{
+    box-sizing: border-box;
+    display: block;
+    height: 467.75px;
+    width: 1012px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    padding-inline-start: 16px;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+
+-----------
+#VENUE1{
+    list-style-type: none;
+    box-sizing: border-box;
+    display: list-item;
+    height: 100.789px;
+    width: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#venue1border{
+    list-style-type: none;
+    box-sizing: border-box;
+    display: block;
+    height: 100.789px;
+    width: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    text-align: left;
+}
+#venue1main{
+    list-style-type: none;
+    box-sizing: border-box;
+    display: flex;
+    height: 64.7891px;
+    width: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 4px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    position: relative;
+}
+#visuallyhidden3{
+    box-sizing: border-box;
+    display: flex;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    border: 0px;
+}
+#venue1date{
+    box-sizing: border-box;
+    display: flex;
+    width: 67.1953px;
+    height: 64.5938px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    flex-direction: column;
+    flex-shrink: 0;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 16px;
+}
+#venue1month{
+    box-sizing: border-box;
+    display: block;
+    height: 19.1953px;
+    width: 67.1953px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    box-sizing: inherit;
+    line-height: 1.2;
+    text-transform: uppercase;
+    list-style: none;
+}
+#venue1day{
+    box-sizing: border-box;
+    display: block;
+    width: 67.1953px;
+    height: 23px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 23px;
+    line-height: 19.2px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    text-transform: uppercase;
+}
+#venue1infoMain{
+    box-sizing: border-box;
+    display: block;
+    height: 64.7891px;
+    width: 680.805px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin-right: 8px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    list-style: none;
+    text-align: left;
+}
+#venue1day-timeMain{
+    box-sizing: border-box;
+    display: flex;
+    height: 22.3924px;
+    width: 680.805px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    align-items: center;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;text-align: left;
+}
+#venue1date-time{
+    box-sizing: border-box;
+    display: block;
+    height: 22.3984px;
+    width: 74.1719px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+#visuallyhidden4{
+    box-sizing: border-box;
+    display: flex;
+    width: 1px;
+    height: 1px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+#time-venue1{
+    box-sizing: border-box;
+    display: inline;
+    width: auto;
+    height: auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+#moreinfo-venue1{
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    height: 22.3924px;
+    width: 23.1953px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    text-align: left;
+    background-color: transparent;
+    color: rgb(177, 177, 177);
+    border-bottom-color: rgb(177, 177, 177);
+    -webkit-font-smoothing: antialiased;
+    border: 0px;
+    text-size-adjust: none;   
+    word-break: break-word;
+    overflow-wrap: break-word;   
+    position: relative;   
+    list-style: none;
+
+}
+#visuallyhidden5{
+    box-sizing: border-box;
+    display: block;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(177, 177, 177);
+    box-sizing: inherit;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-size-adjust: none;
+    text-align: left;
+}
+#visuallyhidden6{
+    box-sizing: border-box;
+    display: block;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(177, 177, 177);
+    box-sizing: inherit;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-size-adjust: none;
+    text-align: left;
+}
+#information-icon1{
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    color: rgb(177, 177, 177);
+    width: 1.2em;
+    height: 1.2em;
+    flex-shrink: 0;
+    fill: currentcolor;
+    margin-left: 4px;
+    vertical-align: text-bottom;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: left;
+    letter-spacing: normal;
+}
+#artistnameMain-venue1{
+    box-sizing: border-box;
+    display: block;
+    height: 19.1953px;
+    width: 680.805px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;   
+}
+#artistname-venue1{
+    box-sizing: border-box;
+    display: inline;
+    height: 22.3924px;
+    width: 680.805px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    line-height: 1.2;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+#locationMain-venue1{
+    box-sizing: border-box;
+    display: block;
+    height: 22.3924px;
+    width: 680.805px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    text-size-adjust: 100%; 
+    color: rgb(100, 100, 100);
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    margin-top: 4px;
+}
+#location-venue1{
+    box-sizing: border-box;
+    display: inline;
+    width: auto;
+    height: auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    color: rgb(100, 100, 100);
+}
+#venue1Name{
+    box-sizing: border-box;
+    display: inline;
+    width: auto;
+    height: auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    color: rgb(100, 100, 100);
+}
+#findticketsMain-venue1{
+    box-sizing: border-box;
+    display: block;
+    height: 42px;
+    width: 192px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+    flex-shrink: 0;
+    min-width: 192px;
+    align-self: center;
+    margin-left: 16px;
+    text-align: right;
+    list-style: none;
+}
+#EventListLink-venue1{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 42px;
+    width: 152.14px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    text-size-adjust: none;   
+    border: 1px solid transparent;   
+    list-style: none;   
+    background-color: rgb(2, 108, 223);
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#findtickets-flexwrapper{
+    box-sizing: border-box;
+    display: flex;
+    height: 24px;
+    width: 118.141px;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#findtickets-textMainOuter{
+    box-sizing: border-box;
+    display: block;
+    height: 24px;
+    width: 118.141px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+}
+#findtickets-textMainInner{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    overflow: visible;
+    clip: auto;
+    clip-path: none;
+}
+#findtickets-text-venue1{
+    box-sizing: border-box;
+    display: inline;
+    height: 100%;
+    width: 100%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 8px;
+}
+#arrowicon1{
+    box-sizing: border-box;
+    display: inline;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    list-style: none;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: currentcolor;
+    transform: rotate(-90deg);
+    vertical-align: top;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+#visuallyhidden7{
+    box-sizing: border-box;
+    display: block;
+    height: 22.3924px;
+    width: 680.805px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+---------
+-----------
+#VENUE2{
+    list-style-type: none;
+    box-sizing: border-box;
+    display: list-item;
+    width: 100.789px;
+    height: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#venue2border{
+
+}
+#venue2main{
+    
+}
+#visuallyhidden8{
+    line-height: 1.4;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: Averta, helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+#venue2date{
+    
+}
+#venue2month{
+    
+}
+#venue2day{
+    
+}
+#venue2day-timeMain{
+
+}
+#venue2date-time{
+
+}
+#visuallyhidden9{
+
+}
+#time-venue2{
+
+}
+#moreinfo-venue2{
+
+}
+#visuallyhidden10{
+
+}
+#visuallyhidden11{
+
+}
+#information-icon2{
+
+}
+#artistnameMain-venue2{
+
+}
+#artistname-venue2{
+
+}
+#locationMain-venue2{
+
+}
+#location-venue2{
+
+}
+#venue2Name{
+
+}
+#findticketsMain-venue2{
+
+}
+#EventListLink-venue2{
+
+}
+#findtickets-flexwrapper2{
+
+}
+#findtickets-textMainOuter2{
+
+}
+#findtickets-textMainInner2{
+
+}
+#findtickets-text-venue2{
+
+}
+#arrow-icon2{
+
+}
+#visuallyhidden12{
+
+}
+---------
+-----------
+#VENUE1{
+    list-style-type: none;
+    box-sizing: border-box;
+    display: list-item;
+    width: 100.789px;
+    height: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#venue1border{
+
+}
+#venue1main{
+    
+}
+#visuallyhidden3{
+    line-height: 1.4;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: Averta, helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+#venue1date{
+    
+}
+#venue1month{
+    
+}
+#venue1day{
+    
+}
+#venue1day-timeMain{
+
+}
+#venue1date-time{
+
+}
+#visuallyhidden4{
+
+}
+#time-venue1{
+
+}
+#moreinfo-venue1{
+
+}
+#visuallyhidden5{
+
+}
+#visuallyhidden6{
+
+}
+#information-icon{
+
+}
+#artistnameMain-venue1{
+
+}
+#artistname-venue1{
+
+}
+#locationMain-venue1{
+
+}
+#location-venue1{
+
+}
+#venue1Name{
+
+}
+#findticketsMain-venue2{
+
+}
+#EventListLink{
+
+}
+#findtickets-flexwrapper{
+
+}
+#findtickets-textMainOuter{
+
+}
+#findtickets-textMainInner{
+
+}
+#findtickets-text-venue1{
+
+}
+#arrow-icon{
+
+}
+#visuallyhidden7{
+
+}
+---------
+-----------
+#VENUE1{
+    list-style-type: none;
+    box-sizing: border-box;
+    display: list-item;
+    width: 100.789px;
+    height: 980px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-size-adjust: 100%; 
+    color: rgb(38, 38, 38);
+    -webkit-font-smoothing: antialiased;
+}
+#venue1border{
+
+}
+#venue1main{
+    
+}
+#visuallyhidden3{
+    line-height: 1.4;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: Averta, helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+#venue1date{
+    
+}
+#venue1month{
+    
+}
+#venue1day{
+    
+}
+#venue1day-timeMain{
+
+}
+#venue1date-time{
+
+}
+#visuallyhidden4{
+
+}
+#time-venue1{
+
+}
+#moreinfo-venue1{
+
+}
+#visuallyhidden5{
+
+}
+#visuallyhidden6{
+
+}
+#information-icon{
+
+}
+#artistnameMain-venue1{
+
+}
+#artistname-venue1{
+
+}
+#locationMain-venue1{
+
+}
+#location-venue1{
+
+}
+#venue1Name{
+
+}
+#findticketsMain-venue1{
+
+}
+#EventListLink{
+
+}
+#findtickets-flexwrapper{
+
+}
+#findtickets-textMainOuter{
+
+}
+#findtickets-textMainInner{
+
+}
+#findtickets-text-venue1{
+
+}
+#arrow-icon{
+
+}
+#visuallyhidden7{
+
+}
+---------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#adWhole{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    flex-shrink: 0;
+    width: 332px;
+    height: 1005.67px;
+    position: relative;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) -4px 4px 8px 0px;
+}
+#adOuter{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    flex-shrink: 0;
+    width: 332px;
+    height: 100%;
+    position: relative;
+    padding-top: 16px;
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: transparent;
+}
+#adInner1{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: block;
+    width: 332px;
+    height: 281.594px;
+    position: sticky;
+    top: 48px;
+}
+#adInner2{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    width: 332px;
+    height: 281.594px;
+    display: block;
+}
+#adslot{
+    line-height: 22.4px;
+    color: rgb(38, 38, 38);
+    font-size: 16px;
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 300px;
+    overflow: hidden;
+    min-height: 250px;
+}
+#adtext{
+    line-height: 19.6px;
+    color: rgb(38, 38, 38);
+    font-family: helvetica, arial, sans-serif;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 4px 0px 8px;
+    font-size: 14px;
+    width: 332px;
+    height: 31.5938px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    overflow-x: hidden ;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #footer{
+    min-height: 500px;
+    background-color: rgb(34, 3, 62);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container{
+    width: 1600px;
+    margin: auto;
+  }
+  
+  .subcontainer{
+    width: 85%;
+    margin: auto;
+  }
+  
+  .footer-wrapper{  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 2;
+  }
+  
+  .footer-box h1{
+    font-size: 3rem;
+  }
+  
+  .footer-box address{
+    color: gray;
+    font-style: normal;
+    line-height: 2;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+  }
+  
+  .info a{
+    color: gray;
+    text-decoration: none;
+  }
+  
+  .info span{
+    color: white;
+  }
+  
+  .brand{
+    color: white;
+    margin-top: -25px;
+  }
+  
+  .rights{
+    padding-top: 50px;
+    color: gray;
+  }
+  
+  .fb1{
+    width: 300px;
+  }
+  
+  .fb2, .fb3, .fb4, .fb5{
+    width: fit-content;
+    line-height: 2;
+  }
+  
+  .social-media{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-media a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+  }
+  
+  @media(max-width:1600px){
+    .container{
+      width: 100%;
+    }
+  }
+  
+  @media(max-width:1024px){
+    .footer-wrapper{
+      padding: 20px 0;
+      flex-direction: column;
+    }
+  
+    .fb1{
+      width: 100%;
+    }  
+  
+    .rights{
+      padding-bottom: 25px;
+    }
+  }

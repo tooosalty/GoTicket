@@ -1,0 +1,418 @@
+#body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1d2130;
+    min-height: 100%;
+    background-color: #efefef;
+}
+#tmHeader {
+  width: 100%;
+  height: auto;
+  background: rgb(34, 3, 62);
+  padding: 25px 20px 55px;
+  margin: 0px auto 20px;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+}
+#tmLogo {
+  width: 200px;
+  height: auto;s
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  margin-top: -10px;
+
+}
+#tmLogo img {
+  width: 160%;
+  height: auto;
+  margin: 0px auto;
+  padding-left: 95px;
+
+}
+#tmSearch {
+  width: 450px;
+  height: 35px;
+  margin: 0px auto;
+  padding: 7px 0px 0px 0px;
+  display: inline-block;
+  float: right;
+  background: #d9317c;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Open Sans", "Averta", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+---------
+
+
+@media only screen and (min-width: 0px) and (max-width: 999px){	
+	.frame{width: 100% !important;background-color: #efefef !important} /*FIX FOR TM HEADER CODE !!!! IMPORTANT*/ 
+}
+@media only screen and (min-width: 1000px){	
+	.frame{width: 1000px !important;} /*FIX FOR TM HEADER CODE !!!! IMPORTANT*/ 
+	
+}	
+
+	/*#contentWrap{background-image: url('https://s1.ticketm.net/tm/en-au/img/static/afl/2020/afl2019_static_wallpaper.png');
+background-color: #efefef;background-repeat: no-repeat;background-position: top center;}*/
+@media only screen and (min-width: 980px){	
+	
+#aflContainer{width:100%; max-width:980px;height:auto;background:#efefef;position:relative;margin: 0px auto;font-size:13px;}
+<style type="text/css">
+/*MAIN CSS*/
+
+@media only screen and (min-width: 0px) and (max-width: 999px){	
+	.frame{width: 100% !important;background-color: #efefef !important} /*FIX FOR TM HEADER CODE !!!! IMPORTANT*/ 
+}
+@media only screen and (min-width: 1000px){	
+	.frame{width: 1000px !important;} /*FIX FOR TM HEADER CODE !!!! IMPORTANT*/ 
+	
+}	
+
+	/*#contentWrap{background-image: url('https://s1.ticketm.net/tm/en-au/img/static/afl/2020/afl2019_static_wallpaper.png');
+background-color: #efefef;background-repeat: no-repeat;background-position: top center;}*/
+@media only screen and (min-width: 980px){	
+	
+#aflContainer{width:100%; max-width:980px;height:auto;background:#efefef;position:relative;margin: 0px auto;font-size:13px;}
+
+
+	#aflHeader img{width:100%;height: auto;margin:0px auto;padding:0px;}
+	#aflLogoSpan{width:100%;max-width:980px;height:100px;background:#efefef;text-align: right;}
+	#aflLogo{width:220px;height:60px;margin:20px 0px 0px 0px;padding:1px;box-sizing:border-box !important;float:right;}
+	#aflLogo img{width:220px;height:60px;margin:0px;}
+	#aflwLogo{width:180px;height:auto;margin:20px 0px 0px 0px;padding:1px;box-sizing:border-box !important;float:left;}
+	#aflwLogo img{width:100%;height:auto;margin:0px;}
+	#aflTeams{width:100%;height:auto;margin:0px auto;padding:10px 0px 0px 0px;background:#efefef;position: relative; display: flex; flex-wrap: wrap;justify-content:space-around; box-sizing: border-box !important;}
+	#aflTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;color:#414141;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.teamContrainer{width:145px;height:auto;margin: 0px auto 10px;background:#fff;display: block; border-radius:5px;position: relative;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 6px;}
+	.teamContrainer, .seeTickets, #aflContainer a{text-decoration:none !important;}
+	.teamLogo{width:80%;max-width:145px;height:auto;margin: 5px auto; display: block;position: relative;background-color:transparent;box-sizing: border-box !important;padding:5%;}
+	.teamLogo img{width:100%;height:auto;box-sizing: border-box !important}
+	.seeTickets{width:100%;height:32px;padding:5px 0px 5px 0px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.3em;font-weight:400;text-align: center;color:#01285e;background: url("https://s1.ticketm.net/tm/en-au/img/static/afl/2020/afl19_arrow.svg") right no-repeat #fff;box-sizing: border-box !important;text-decoration: none !important;border-radius:0px 0px 5px 5px;border-top:1px solid #efefef;line-height:1.2em}
+	.seeTicketsBg{width:0%;height: 32px;bottom: 0;left: 0;background: #000;position: absolute; opacity: .05;border-radius:0px 0px 5px 5px;}
+	#aflTTips{width:100%;height:auto;margin:0px auto;display:block;box-sizing:border-box !important;background:#d9317c;}
+	#aflTTips p{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size:20px;color:#fff;padding:5px;word-spacing: 20px;margin:0px auto;text-align:center;}
+	#aflTTips img{width:70px;height:20px;display:inline-block;margin:0px 0px -3px 0px;}
+	
+	.extrasContainer{width: 100%;height: auto;box-sizing: border-box !important;margin: auto;}
+	.extrasContainer p{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;color:#191919;}
+	.extrasContainer a{text-decoration:none;color:#023c91;}
+	.membershipMod img{width:auto;height:100%;}
+	.aflWebMod img{width:auto;height:100%;}
+	.footerContainer{width: 100%;height: 100%;}
+	#aflRoundSelect{background:linear-gradient(111deg, #01285e, #041d3f), #01285e;width:100%;max-width:980px;height:auto; display: flex; flex-wrap: wrap;justify-content:space-around;margin:0px auto;padding:5px;box-sizing: border-box !important;}
+	#aflRoundSelect h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;color:#fff;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.roundBtn{width:35px;height:35px;border-radius:21px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 18px;font-weight:400;text-align: center;padding:4px 0px 0px 0px;margin:5px auto;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.50) 0px 2px 6px;cursor: pointer;transition: .5s ease-in-out}
+	.roundBtnActive{background:#fff;border: 1px solid #f0001b;color:#f0001b;}	
+	.roundBtnInActive{background:#01285e;border: 1px solid #fff;color:#fff;}
+	.roundBtnInActive:hover{background:#1c4985;}
+	
+	.roundContainer{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important;position: relative;display:none;}
+	.roundWrap{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important; display: flex; flex-wrap: wrap;justify-content:space-around;padding:10px 0px;position: relative;}
+	.aflMatch{width:180px;height:75px;background:#fff;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.10);border-radius: 5px;margin:10px 0px;box-sizing: border-box !important;position: relative;}
+	.aflMatch:hover{opacity:.8;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.20);}
+	.splitRound{margin:10px 20px !important;}
+	.matchDetails{width:49px;height: 75px;left:0px;top:0px;padding:20px 0px 0px 0px;position: absolute;border-right:1px solid #efefef;box-sizing: border-box !important;background: transparent;}
+	.matchDetails h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 9px;}
+	.matchDetails h2{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 7px;font-weight:400;color:#000;text-align: center}
+	.matchTeams{width:110px;height:75px;left:50px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;padding: 17px 0px 0px 0px;line-height:20px;}
+	.matchTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 8px;display:inline-block;padding:0px;margin: 20px 0px 0px 0px;vertical-align: top;}
+	.homeTeam img, .awayTeam img,.homeTeam, .awayTeam{width:40px;height:40px;display:inline-block;}
+	.homeTeam{margin:0px 5px 0px 0px}
+	.awayTeam{margin:0px 0px 0px 5px}
+	.matchArrow{width:19px;height:75px;right:0px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;padding:30px 0px 0px 0px;}
+	.matchArrow img{width:15px;height:15px;}
+	.roundDiv{width:80%;height:2px;background:#e1e1e1;bottom:0px;left:10%;position: absolute;}
+	}
+@media only screen and (min-width: 0px) and (max-width: 979px){
+	#aflContainer{width:100%; max-width:980px;height:auto;background:#efefef;position:relative;margin: 0px auto;font-size:13px;}
+	#aflLogoSpan{width:100%;max-width:980px;height:auto;background:#fff;text-align: right;}
+	#aflLogo{max-width:220px;width:40%;height:auto;margin:20px 5% 0px 5%;padding:1px;box-sizing:border-box !important;float:right;display:inline-block;}
+	#aflLogo img{width:100%;height:auto;margin:0px;}
+	#aflwLogo{width:35%;max-width:180px;height:auto;margin:20px 5% 0px 5%;padding:1px;box-sizing:border-box !important;float:left;display:inline-block;}
+	#aflwLogo img{width:100%;height:auto;margin:0px;}
+	#aflHeader img{width:100%;height: auto;margin:0px auto;padding:0px;}
+	#aflTeams{width:100%;height:auto;margin:0px auto;padding:10px 0px 0px 0px;background:#efefef;position: relative; display: flex; flex-wrap: wrap;justify-content:space-around; box-sizing: border-box !important;}
+	#aflTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.1em;font-weight:400;text-align: center;color:#414141;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.teamContrainer{width:145px;height:auto;margin: 0px auto 10px;background:#fff;display: block; border-radius:5px;position: relative;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 6px;}
+	.teamContrainer, .seeTickets, #aflContainer a{text-decoration:none !important;}
+	.teamLogo{width:80%;max-width:145px;height:auto;margin: 5px auto; display: block;position: relative;background-color:transparent;box-sizing: border-box !important;padding:5%;}
+	.teamLogo img{width:100%;height:auto;box-sizing: border-box !important}
+	.seeTickets{width:100%;height:32px;padding:5px 0px 5px 0px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.3em;font-weight:400;text-align: center;color:#01285e;background: url("https://s1.ticketm.net/tm/en-au/img/static/afl/2020/afl19_arrow.svg") right no-repeat #fff;box-sizing: border-box !important;text-decoration: none !important;border-radius:0px 0px 5px 5px;border-top:1px solid #efefef;line-height:1.2em}
+	.seeTicketsBg{width:0%;height: 32px;bottom: 0;left: 0;background: #000;position: absolute; opacity: .05;border-radius:0px 0px 5px 5px;}
+	#aflTTips{width:100%;height:auto;margin:0px auto;display:block;box-sizing:border-box !important;background:#d9317c;}
+	#aflTTips p{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size:14px;color:#fff;padding:5px;margin:0px auto;text-align:center;}
+	#aflTTips img{width:15px;height:15px;display:inline-block;margin:0px 0px -3px 0px;}
+	
+	.extrasContainer{width: 100%;height: auto;box-sizing: border-box !important;margin: auto;display: flex; flex-wrap: wrap;justify-content:space-around;}
+	.extrasContainer a{display:flex;flex-direction: row;flex: 1 0 auto;margin: 0;box-sizing: border-box !important;}
+	.membershipMod img{width:auto;height:100%;}
+	.aflWebMod img{width:auto;height:100%;}
+	.footerContainer{width: 100%;height: 100%;}
+	#aflRoundSelect{background:linear-gradient(111deg, #01285e, #041d3f), #01285e;width:100%;max-width:980px;height:auto; display: flex; flex-wrap: wrap;justify-content:space-around;margin:0px auto;padding:5px;box-sizing: border-box !important;}
+	#aflRoundSelect h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.1em;font-weight:400;text-align: center;color:#fff;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.roundBtn{width:25px;height:25px;border-radius:21px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;padding:2px 0px 0px 0px;margin:2px;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.50) 0px 2px 6px;cursor: pointer;transition: .5s ease-in-out}
+	.roundBtnActive{background:#fff;border: 1px solid #f0001b;color:#f0001b;}	
+	.roundBtnInActive{background:#01285e;border: 1px solid #fff;color:#fff;}
+	.roundBtnInActive:hover{background:#1c4985;}
+	
+	.roundContainer{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important;position: relative;display:none;}
+	.roundWrap{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important; display: flex; flex-wrap: wrap;justify-content:space-around;padding:10px 0px;position: relative;}
+	.aflMatch{width:160px;height:75px;background:#fff;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.10);border-radius: 5px;margin:10px 0px;box-sizing: border-box !important;position: relative;}
+	.aflMatch:hover{opacity:.8;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.20);}
+	.matchDetails{width:49px;height: 75px;left:0px;top:0px;padding:20px 0px 0px 0px;position: absolute;border-right:1px solid #efefef;box-sizing: border-box !important;background: transparent;}
+	.matchDetails h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 9px;}
+	.matchDetails h2{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 7px;font-weight:400;color:#000;text-align: center}
+	.matchTeams{width:100px;height:75px;left:50px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;padding: 23px 10px 0px 0px;line-height:20px;}
+	.matchTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 8px;display:inline-block;padding:0px;margin: 10px 0px 0px 0px;vertical-align: top;}
+	.homeTeam img, .awayTeam img,.homeTeam, .awayTeam{width:25px;height:25px;display:inline-block;}
+	.homeTeam{margin:0px 3px 0px 0px}
+	.awayTeam{margin:0px 0px 0px 3px}
+	.matchArrow{width:19px;height:75px;right:0px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;padding:30px 0px 0px 0px;}
+	.matchArrow img{width:15px;height:15px;}
+	.roundDiv{width:80%;height:2px;background:#e1e1e1;bottom:0px;left:10%;position: absolute;}
+
+}
+
+</style>
+
+	#aflHeader img{width:100%;height: auto;margin:0px auto;padding:0px;}
+	#aflLogoSpan{width:100%;max-width:980px;height:100px;background:#efefef;text-align: right;}
+	#aflLogo{width:220px;height:60px;margin:20px 0px 0px 0px;padding:1px;box-sizing:border-box !important;float:right;}
+	#aflLogo img{width:220px;height:60px;margin:0px;}
+	#aflwLogo{width:180px;height:auto;margin:20px 0px 0px 0px;padding:1px;box-sizing:border-box !important;float:left;}
+	#aflwLogo img{width:100%;height:auto;margin:0px;}
+	#aflTeams{width:100%;height:auto;margin:0px auto;padding:10px 0px 0px 0px;background:#efefef;position: relative; display: flex; flex-wrap: wrap;justify-content:space-around; box-sizing: border-box !important;}
+	#aflTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;color:#414141;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.teamContrainer{width:145px;height:auto;margin: 0px auto 10px;background:#fff;display: block; border-radius:5px;position: relative;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 6px;}
+	.teamContrainer, .seeTickets, #aflContainer a{text-decoration:none !important;}
+	.teamLogo{width:80%;max-width:145px;height:auto;margin: 5px auto; display: block;position: relative;background-color:transparent;box-sizing: border-box !important;padding:5%;}
+	.teamLogo img{width:100%;height:auto;box-sizing: border-box !important}
+	.seeTickets{width:100%;height:32px;padding:5px 0px 5px 0px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.3em;font-weight:400;text-align: center;color:#01285e;background: url("https://s1.ticketm.net/tm/en-au/img/static/afl/2020/afl19_arrow.svg") right no-repeat #fff;box-sizing: border-box !important;text-decoration: none !important;border-radius:0px 0px 5px 5px;border-top:1px solid #efefef;line-height:1.2em}
+	.seeTicketsBg{width:0%;height: 32px;bottom: 0;left: 0;background: #000;position: absolute; opacity: .05;border-radius:0px 0px 5px 5px;}
+	#aflTTips{width:100%;height:auto;margin:0px auto;display:block;box-sizing:border-box !important;background:#d9317c;}
+	#aflTTips p{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size:20px;color:#fff;padding:5px;margin:0px auto;text-align:center;}
+	#aflTTips img{width:70px;height:20px;display:inline-block;margin:0px 0px -3px 0px;}
+	
+	.extrasContainer{width: 100%;height: auto;box-sizing: border-box !important;margin: auto;}
+	.extrasContainer p{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-size: 14px;font-weight:400;text-align: center;color:#191919;}
+	.extrasContainer a{text-decoration:none;color:#023c91;}
+	.membershipMod img{width:auto;height:100%;}
+	.aflWebMod img{width:auto;height:100%;}
+	.footerContainer{width: 100%;height: 100%;}
+	#aflRoundSelect{background:linear-gradient(111deg, #01285e, #041d3f), #01285e;width:100%;max-width:980px;height:auto; display: flex; flex-wrap: wrap;justify-content:space-around;margin:0px auto;padding:5px;box-sizing: border-box !important;}
+	#aflRoundSelect h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;color:#fff;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.roundBtn{width:35px;height:35px;border-radius:21px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 18px;font-weight:400;text-align: center;padding:4px 0px 0px 0px;margin:5px auto;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.50) 0px 2px 6px;cursor: pointer;transition: .5s ease-in-out}
+	.roundBtnActive{background:#fff;border: 1px solid #f0001b;color:#f0001b;}	
+	.roundBtnInActive{background:#01285e;border: 1px solid #fff;color:#fff;}
+	.roundBtnInActive:hover{background:#1c4985;}
+	
+	.roundContainer{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important;position: relative;display:none;}
+	.roundWrap{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important; display: flex; flex-wrap: wrap;justify-content:space-around;padding:10px 0px;position: relative;}
+	.aflMatch{width:180px;height:75px;background:#fff;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.10);border-radius: 5px;margin:10px 0px;box-sizing: border-box !important;position: relative;}
+	.aflMatch:hover{opacity:.8;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.20);}
+	.splitRound{margin:10px 20px !important;}
+	.matchDetails{width:49px;height: 75px;left:0px;top:0px;padding:20px 0px 0px 0px;position: absolute;border-right:1px solid #efefef;box-sizing: border-box !important;background: transparent;}
+	.matchDetails h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 9px;}
+	.matchDetails h2{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 7px;font-weight:400;color:#000;text-align: center}
+	.matchTeams{width:110px;height:75px;left:50px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;padding: 17px 0px 0px 0px;line-height:20px;}
+	.matchTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 8px;display:inline-block;padding:0px;margin: 20px 0px 0px 0px;vertical-align: top;}
+	.homeTeam img, .awayTeam img,.homeTeam, .awayTeam{width:40px;height:40px;display:inline-block;}
+	.homeTeam{margin:0px 5px 0px 0px}
+	.awayTeam{margin:0px 0px 0px 5px}
+	.matchArrow{width:19px;height:75px;right:0px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;padding:30px 0px 0px 0px;}
+	.matchArrow img{width:15px;height:15px;}
+	.roundDiv{width:80%;height:2px;background:#e1e1e1;bottom:0px;left:10%;position: absolute;}
+	}
+@media only screen and (min-width: 0px) and (max-width: 979px){
+	#aflContainer{width:100%; max-width:980px;height:auto;background:#efefef;position:relative;margin: 0px auto;font-size:13px;}
+	#aflLogoSpan{width:100%;max-width:980px;height:auto;background:#fff;text-align: right;}
+	#aflLogo{max-width:220px;width:40%;height:auto;margin:20px 5% 0px 5%;padding:1px;box-sizing:border-box !important;float:right;display:inline-block;}
+	#aflLogo img{width:100%;height:auto;margin:0px;}
+	#aflwLogo{width:35%;max-width:180px;height:auto;margin:20px 5% 0px 5%;padding:1px;box-sizing:border-box !important;float:left;display:inline-block;}
+	#aflwLogo img{width:100%;height:auto;margin:0px;}
+	#aflHeader img{width:100%;height: auto;margin:0px auto;padding:0px;}
+	#aflTeams{width:100%;height:auto;margin:0px auto;padding:10px 0px 0px 0px;background:#efefef;position: relative; display: flex; flex-wrap: wrap;justify-content:space-around; box-sizing: border-box !important;}
+	#aflTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.1em;font-weight:400;text-align: center;color:#414141;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.teamContrainer{width:145px;height:auto;margin: 0px auto 10px;background:#fff;display: block; border-radius:5px;position: relative;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.10) 0px 2px 6px;}
+	.teamContrainer, .seeTickets, #aflContainer a{text-decoration:none !important;}
+	.teamLogo{width:80%;max-width:145px;height:auto;margin: 5px auto; display: block;position: relative;background-color:transparent;box-sizing: border-box !important;padding:5%;}
+	.teamLogo img{width:100%;height:auto;box-sizing: border-box !important}
+	.seeTickets{width:100%;height:32px;padding:5px 0px 5px 0px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.3em;font-weight:400;text-align: center;color:#01285e;background: url("https://s1.ticketm.net/tm/en-au/img/static/afl/2020/afl19_arrow.svg") right no-repeat #fff;box-sizing: border-box !important;text-decoration: none !important;border-radius:0px 0px 5px 5px;border-top:1px solid #efefef;line-height:1.2em}
+	.seeTicketsBg{width:0%;height: 32px;bottom: 0;left: 0;background: #000;position: absolute; opacity: .05;border-radius:0px 0px 5px 5px;}
+	#aflTTips{width:100%;height:auto;margin:0px auto;display:block;box-sizing:border-box !important;background:#d9317c;}
+	#aflTTips p{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size:14px;color:#fff;padding:5px;margin:0px auto;text-align:center;}
+	#aflTTips img{width:15px;height:15px;display:inline-block;margin:0px 0px -3px 0px;}
+	
+	.extrasContainer{
+    width: 100%;
+    padding-bottom: 100px;
+    height: auto;
+    padding-bottom: 100px;
+    box-sizing: border-box !important;margin: auto;display: flex; flex-wrap: wrap;justify-content:space-around;}
+	.extrasContainer a{display:flex;flex-direction: row;flex: 1 0 auto;margin: 0;box-sizing: border-box !important;}
+	.membershipMod img{width:auto;height:100%;}
+	.aflWebMod img{width:auto;height:100%;}
+	.footerContainer{width: 100%;height: 100%;}
+	#aflRoundSelect{background:linear-gradient(111deg, #01285e, #041d3f), #01285e;width:100%;max-width:980px;height:auto; display: flex; flex-wrap: wrap;justify-content:space-around;margin:0px auto;padding:5px;box-sizing: border-box !important;}
+	#aflRoundSelect h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 1.1em;font-weight:400;text-align: center;color:#fff;width:100%;padding:4px;margin:0px;line-height: 10px;}
+	.roundBtn{width:25px;height:25px;border-radius:21px; font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 14px;font-weight:400;text-align: center;padding:2px 0px 0px 0px;margin:2px;box-sizing: border-box !important;box-shadow: rgba(0, 0, 0, 0.50) 0px 2px 6px;cursor: pointer;transition: .5s ease-in-out}
+	.roundBtnActive{background:#fff;border: 1px solid #f0001b;color:#f0001b;}	
+	.roundBtnInActive{background:#01285e;border: 1px solid #fff;color:#fff;}
+	.roundBtnInActive:hover{background:#1c4985;}
+	
+	.roundContainer{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important;position: relative;display:none;}
+	.roundWrap{width:100%;height:auto;max-width:980px;background:#efefef;box-sizing: border-box !important; display: flex; flex-wrap: wrap;justify-content:space-around;padding:10px 0px;position: relative;}
+	.aflMatch{width:160px;height:75px;background:#fff;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.10);border-radius: 5px;margin:10px 0px;box-sizing: border-box !important;position: relative;}
+	.aflMatch:hover{opacity:.8;box-shadow:0px 0px 11px 1px rgba(0, 0, 0, 0.20);}
+	.matchDetails{width:49px;height: 75px;left:0px;top:0px;padding:20px 0px 0px 0px;position: absolute;border-right:1px solid #efefef;box-sizing: border-box !important;background: transparent;}
+	.matchDetails h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 9px;}
+	.matchDetails h2{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 7px;font-weight:400;color:#000;text-align: center}
+	.matchTeams{width:100px;height:75px;left:50px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;padding: 23px 10px 0px 0px;line-height:20px;}
+	.matchTeams h1{font-family: "Averta", "Open Sans", sans-serif, Fallback, Arial;font-size: 8px;font-weight:400;color:#000;text-align: center;line-height: 8px;display:inline-block;padding:0px;margin: 10px 0px 0px 0px;vertical-align: top;}
+	.homeTeam img, .awayTeam img,.homeTeam, .awayTeam{width:25px;height:25px;display:inline-block;}
+	.homeTeam{margin:0px 3px 0px 0px}
+	.awayTeam{margin:0px 0px 0px 3px}
+	.matchArrow{width:19px;height:75px;right:0px;top:0px;position: absolute;box-sizing: border-box !important;background: transparent;padding:30px 0px 0px 0px;}
+	.matchArrow img{width:15px;height:15px;}
+	.roundDiv{
+    width:80%;
+    height:2px;
+    background:#e1e1e1;
+    bottom:0px;
+    left:10%;
+    position: absolute;
+  }
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  overflow-x: hidden ;
+  font-family: 'Roboto', sans-serif;
+}
+
+#footer{
+  min-height: 300px;
+  background-color: rgb(34, 3, 62);
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 1600px;
+  margin: auto;
+}
+
+.subcontainer{
+  width: 85%;
+  margin: auto;
+}
+
+.footer-wrapper{  
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-box{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+  line-height: 2;
+}
+
+.footer-box h1{
+  font-size: 3rem;
+}
+
+.footer-box address{
+  color: rgb(156, 152, 152);
+  font-style: normal;
+  line-height: 2;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  color: rgb(156, 152, 152);
+}
+
+.info a{
+  color: rgb(156, 152, 152);
+  text-decoration: none;
+}
+
+.info span{
+  color: white;
+}
+
+.brand{
+  color: white;
+  margin-top: -25px;
+}
+
+.rights{
+  padding-top: 50px;
+  color: gray;
+}
+
+.fb1{
+  width: 300px;
+}
+
+.fb2, .fb3, .fb4, .fb5{
+  width: fit-content;
+  line-height: 2;
+}
+
+.social-media{
+  display: flex;
+  gap: 20px;
+}
+
+.social-media a{
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+
+@media(max-width:1600px){
+  .container{
+    width: 100%;
+  }
+}
+
+@media(max-width:1024px){
+  .footer-wrapper{
+    padding: 20px 0;
+    flex-direction: column;
+  }
+
+  .fb1{
+    width: 100%;
+  }  
+
+  .rights{
+    padding-bottom: 25px;
+  }
+}

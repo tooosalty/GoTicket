@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" href="searchartist.css">
+<script src="searchartist.js"></script>
+</head>
+<body>
+    <div class="everything" id="everything">
+        <div>
+            <header id="NavBar" class="naviugationbar-bc">
+                <div class="logobc" id="logobc">
+                    <div class="logo" id="logo">
+                        <button aria-label="main menu and search" id="mainMenu" class="mainMenu"> 
+                            <svg class="BaseSvg-sc-yh8lnd-0 HamburgerIcon___StyledBaseSvg-sc-1cla98k-0 lirSVu sc-1f28vh9-4 bmlGvA" id="burgericon" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false">
+                                <path d="M3 4.5h18v3H3v-3zm0 6h18v3H3v-3zm0 6h18v3H3v-3z"></path>
+                            </svg>
+                        </button>
+                        <a href="homepage.html" class="logolink" id="logolink">
+                                <img src="images/qoRULN01.png" id = "titlePic">  
+                            </a>
+                        </img>
+                        <a>
+                            <span class="visuallyhidden" id="visuallyhidden"> Home page</span>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="navcategories" id="NavCatergories">
+                        <div class="wrap">
+                            <div class="search">
+                               <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                               <button type="submit" class="searchButton">
+                                 <i class="fa fa-search"></i>
+                              </button>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <div class="menu-item current-menu-item">
+                              <a href="trending.html" id="trendinglink"><h6>Trending</h6></a>
+                              <div class="wee"></div>
+                            </div>
+                            <div class="menu-item">
+                              <a href="sportpage.html" id="sportlink"><h6>Sport</h6></a>
+                            </div>
+                            <div class="menu-item">
+                              <a href="selling.html" id="sellinglink"><h6>Sell Tickets</h6></a>
+                            </div>
+                            <div class="menu-item">
+                              <a href="https://youtube.com" id="ticketinglink"><h6>Ticket Your Event</h6></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        </div>
+        <div class="search of artist name everything" id="searchartistOuterbc">
+            <form action="artistpage.html" role="search" id="searchartistInnerbc">
+                <label for="searchInput" class="resulttext" id="resulttext">3 events for
+                </label>
+                <div class="SearchOfArtistName" id="SearchofArtistName">
+                    <input type="text" id="SearchInput" name="q" aria-label="Search for Artist, Event or Venue" placeholder="Search by Artist, Event or Venue" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" value="YEAT" data-testid="searchInput" class="sc-12ebniq-1 jCOWzv">
+                    <button type="reset" class="erase-icon" id="xiconbc">
+                        <svg class="http://www.w3.org/2000/svg" id="xicon" version="1.0" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,512.000000) scale(0.050000,-0.050000)" fill="#8502fe" stroke="none">
+                            <path d="M8724 10176 c-29 -29 -32 -116 -5 -116 11 0 15 14 8 30 -18 48 10 107 34 69 15 -24 18 -23 19 6 0 41 -22 45 -56 11z"/>
+                            <path d="M3839 10150 c-1919 -301 -3360 -1725 -3742 -3700 -37 -193 -38 -1225 0 -1420 447 -2339 2375 -3866 4708 -3729 2195 128 4006 1941 4135 4140 134 2291 -1342 4194 -3630 4683 -254 54 -1186 70 -1471 26z m516 -125 c-42 -4 -105 -4 -140 1 -36 4 -2 8 75 7 77 0 106 -3 65 -8z m732 -49 c-12 -20 51 -32 243 -46 168 -13 452 -81 472 -113 6 -11 20 -17 30 -14 43 11 148 -28 148 -56 0 -16 8 -24 18 -19 36 23 538 -194 693 -300 39 -26 79 -48 90 -48 10 0 19 -9 19 -20 0 -11 14 -20 32 -20 20 0 28 -11 21 -29 -7 -19 -1 -25 17 -18 36 13 184 -91 197 -138 6 -22 21 -31 40 -23 18 7 41 -5 57 -30 14 -23 36 -42 48 -42 30 0 91 -70 75 -87 -8 -7 6 -13 30 -13 26 0 43 -13 43 -31 0 -17 9 -26 20 -19 11 7 20 -2 20 -20 0 -18 8 -28 17 -22 23 15 130 -100 115 -124 -6 -11 4 -18 23 -17 19 2 33 -8 30 -22 -3 -14 5 -25 16 -25 35 0 79 -54 79 -96 0 -22 14 -50 30 -64 21 -17 30 -18 30 -2 0 12 -9 22 -20 22 -11 0 -20 11 -20 25 1 14 40 -20 88 -75 48 -54 83 -111 77 -125 -5 -14 4 -25 21 -25 41 0 181 -193 167 -229 -7 -19 -1 -25 18 -18 20 8 29 -2 29 -31 0 -23 8 -42 19 -42 21 0 153 -222 146 -245 -3 -8 3 -15 13 -15 9 0 28 -29 42 -65 36 -96 63 -161 82 -200 10 -19 18 -48 18 -64 0 -16 16 -38 35 -49 19 -12 29 -21 21 -21 -7 -1 -1 -25 14 -55 15 -29 23 -61 17 -71 -6 -10 4 -34 23 -55 19 -21 28 -47 21 -59 -7 -11 -3 -21 9 -21 12 0 16 -10 9 -22 -8 -12 -4 -29 8 -36 12 -8 25 -31 29 -53 4 -21 14 -61 22 -89 7 -27 20 -108 29 -180 8 -71 23 -128 34 -127 10 2 18 -46 16 -109 -2 -62 5 -130 16 -150 26 -47 37 -950 14 -1095 -10 -60 -23 -154 -29 -209 -6 -55 -18 -118 -28 -140 -9 -22 -22 -94 -29 -160 -13 -132 -146 -570 -173 -570 -9 0 -12 -13 -5 -30 7 -19 -1 -30 -22 -30 -18 0 -29 -7 -24 -16 6 -9 -4 -47 -21 -85 -16 -38 -37 -87 -46 -109 -49 -127 -173 -355 -213 -393 -26 -24 -47 -60 -47 -80 0 -21 -7 -37 -15 -37 -9 0 -24 -16 -35 -36 -57 -103 -104 -164 -140 -182 -22 -11 -28 -20 -14 -21 15 0 21 -10 15 -20 -7 -11 -27 -14 -44 -7 -22 9 -29 4 -22 -16 12 -35 -21 -103 -44 -89 -9 6 -23 -10 -30 -34 -13 -44 -14 -44 -31 -5 -17 40 -29 15 -21 -45 1 -14 -7 -25 -18 -25 -12 0 -21 -14 -21 -31 0 -17 -7 -27 -16 -21 -9 5 -29 1 -45 -9 -24 -15 -24 -18 -1 -19 22 0 20 -9 -8 -40 -20 -22 -48 -40 -62 -40 -14 0 -31 -17 -37 -37 -15 -46 -91 -118 -91 -86 0 13 -10 23 -21 23 -12 0 -19 -20 -15 -45 5 -34 -3 -44 -31 -39 -20 4 -32 -2 -25 -13 16 -25 -148 -155 -185 -146 -19 4 -24 -5 -16 -25 8 -23 0 -32 -28 -32 -21 0 -39 -11 -40 -25 -1 -35 -158 -140 -190 -127 -17 6 -23 0 -16 -19 7 -17 -1 -29 -17 -29 -15 0 -64 -26 -107 -57 -79 -57 -266 -157 -379 -203 -33 -14 -76 -33 -95 -42 -19 -10 -48 -18 -64 -18 -16 0 -36 -13 -45 -29 -16 -28 -364 -151 -429 -151 -19 0 -40 -8 -46 -18 -6 -11 -72 -24 -146 -31 -74 -7 -149 -21 -167 -30 -18 -10 -81 -20 -140 -23 -59 -2 -121 -14 -136 -26 -38 -29 -1053 -40 -1122 -12 -27 11 -108 29 -180 39 -317 47 -487 80 -499 99 -7 12 -35 25 -62 30 -27 5 -49 11 -49 13 0 2 -19 6 -43 9 -72 8 -256 78 -273 105 -9 14 -29 25 -45 25 -16 0 -47 9 -69 20 -22 11 -58 29 -80 40 -22 11 -53 20 -70 20 -16 0 -30 9 -30 20 0 11 -7 19 -15 18 -40 -7 -66 4 -55 22 7 11 -2 20 -20 20 -42 0 -210 98 -210 122 0 10 -7 16 -15 14 -13 -4 -141 57 -164 78 -6 4 3 17 20 28 22 16 18 18 -16 8 -51 -14 -185 75 -185 125 0 16 -12 25 -26 19 -15 -5 -71 29 -125 77 -55 48 -88 88 -74 88 14 1 25 -8 25 -19 0 -11 16 -20 35 -19 31 0 31 4 -5 31 -22 16 -57 26 -77 20 -25 -6 -41 3 -47 29 -6 21 -18 34 -26 29 -9 -6 -12 8 -6 30 6 22 1 40 -12 40 -12 0 -22 -10 -22 -21 0 -12 -9 -16 -21 -8 -14 8 -12 23 5 44 22 26 20 29 -15 18 -30 -10 -57 3 -99 47 -32 33 -47 60 -34 60 13 0 24 9 24 20 0 11 -7 18 -15 16 -35 -10 -105 49 -107 90 0 24 -6 32 -12 18 -11 -29 -86 24 -86 61 0 10 -20 36 -45 57 -33 28 -35 35 -10 26 57 -20 40 25 -20 51 -71 30 -168 169 -158 227 4 24 3 33 -1 19 -12 -35 -46 -31 -46 5 0 17 -9 30 -20 30 -11 0 -20 17 -20 38 0 21 -13 43 -30 49 -16 7 -30 35 -30 64 0 29 -9 46 -20 39 -11 -7 -20 6 -20 29 0 22 -18 59 -40 81 -22 22 -40 53 -40 70 0 17 -9 30 -19 30 -11 0 -25 32 -32 70 -8 39 -21 70 -31 70 -10 0 -18 17 -18 39 0 21 -9 44 -20 51 -11 7 -20 31 -20 53 0 22 -19 67 -42 100 -23 33 -37 65 -30 71 6 7 4 22 -6 34 -30 38 -142 423 -142 490 0 40 -8 59 -21 52 -13 -9 -16 5 -8 39 8 28 6 94 -2 146 -15 92 -16 93 -31 35 -12 -49 -15 -42 -13 40 6 238 -10 558 -25 500 -14 -53 -16 -49 -18 36 -1 60 6 92 18 84 12 -7 20 16 20 59 0 39 -9 71 -20 71 -11 0 -19 49 -17 115 l4 115 13 -110 c12 -101 14 -96 17 70 2 110 14 201 31 234 17 33 27 105 25 183 -2 71 4 125 12 120 8 -5 16 16 17 47 5 109 16 161 50 238 19 43 32 94 30 113 -3 19 3 35 12 35 10 0 19 20 21 45 2 24 18 55 35 68 20 14 25 28 12 36 -13 8 1 56 37 127 33 63 73 159 91 214 38 116 176 374 220 410 17 14 30 42 30 62 0 21 9 38 20 38 11 0 20 14 20 30 0 36 34 40 45 5 5 -14 5 -1 1 28 -6 37 4 62 33 82 22 16 37 33 32 38 -15 14 75 108 119 126 26 10 31 19 15 25 -18 7 -6 34 36 88 35 43 71 73 81 67 10 -6 18 0 19 15 1 38 96 140 118 127 10 -6 24 -3 31 9 7 11 1 20 -13 20 -14 0 6 31 43 70 43 44 73 62 81 48 20 -32 46 14 27 47 -8 14 -7 19 1 11 9 -8 37 12 64 44 31 37 61 54 83 47 26 -8 27 -6 7 8 -20 15 -8 34 53 82 43 34 83 57 88 52 6 -6 26 13 44 41 19 28 42 46 52 40 10 -6 28 7 40 30 12 23 30 36 39 31 9 -6 22 4 29 21 8 20 27 29 51 23 27 -7 35 -2 27 17 -6 17 3 28 22 28 18 0 32 7 32 15 0 9 16 24 36 35 87 48 257 128 284 134 17 3 42 21 56 40 14 19 56 40 95 47 38 8 69 21 69 31 0 10 14 18 30 18 32 0 51 8 185 77 48 25 94 40 104 34 10 -6 21 -1 25 11 4 12 32 23 62 25 30 2 54 9 54 17 0 7 27 10 61 5 33 -4 56 0 50 9 -13 21 105 54 289 80 83 12 186 26 230 33 44 6 139 18 210 27 160 20 1060 17 1047 -2z m-371 -8527 c-14 -14 -417 -14 -431 0 -7 6 90 11 215 11 125 0 222 -5 216 -11z"/>
+                            <path d="M2946 7953 c7 -19 -3 -24 -38 -18 -35 7 -48 1 -48 -23 0 -18 -16 -32 -37 -32 -21 0 -54 -22 -75 -50 -21 -27 -45 -50 -54 -50 -9 0 -37 -23 -63 -51 -27 -29 -55 -53 -65 -55 -9 -2 -13 -12 -10 -21 3 -10 -8 -13 -25 -6 -16 6 -35 3 -40 -6 -6 -10 -2 -21 8 -24 11 -4 -18 -47 -64 -97 -99 -105 -141 -177 -126 -215 6 -15 2 -22 -9 -15 -12 8 -20 -24 -20 -80 0 -52 8 -87 19 -81 11 7 12 -11 1 -47 -13 -47 -11 -57 12 -49 17 7 28 -1 28 -20 0 -17 45 -74 101 -126 64 -60 92 -99 78 -108 -17 -10 -17 -18 -1 -28 12 -7 29 -9 38 -3 9 5 29 0 45 -11 24 -17 23 -19 -5 -10 -23 8 -31 2 -23 -17 6 -15 23 -23 39 -17 15 6 28 3 28 -8 0 -11 39 -59 86 -108 48 -49 93 -105 100 -124 7 -19 29 -32 48 -29 19 3 36 -5 38 -19 2 -14 4 -35 6 -46 1 -12 10 -17 19 -11 10 6 70 -45 134 -114 63 -68 123 -122 132 -119 10 3 16 -2 15 -10 -6 -37 4 -65 23 -65 27 0 199 -143 199 -165 0 -10 -10 -11 -23 -3 -14 9 -18 5 -9 -8 7 -12 28 -17 45 -10 25 9 29 3 19 -28 -10 -31 -3 -44 31 -53 37 -9 40 -16 18 -42 -14 -17 -21 -31 -14 -31 6 0 -43 -56 -109 -125 -66 -69 -133 -122 -149 -119 -18 4 -24 -5 -16 -25 9 -24 3 -28 -24 -18 -27 10 -33 6 -25 -16 8 -18 -35 -76 -116 -156 -70 -70 -128 -116 -128 -103 0 13 -9 19 -19 13 -11 -7 -14 -25 -8 -42 7 -18 -1 -29 -22 -29 -18 0 -29 -7 -23 -17 5 -9 -48 -74 -119 -144 -71 -70 -129 -117 -129 -103 0 13 -10 24 -21 24 -13 0 -16 -17 -8 -43 11 -35 7 -41 -21 -30 -25 10 -31 5 -24 -15 13 -34 -46 -91 -81 -78 -15 6 -21 -2 -14 -20 7 -17 -5 -42 -25 -57 -53 -38 -130 -177 -117 -211 6 -15 2 -23 -9 -16 -12 8 -20 -28 -20 -90 0 -56 8 -97 18 -91 10 6 14 -5 9 -24 -6 -22 21 -70 72 -125 44 -50 81 -110 81 -135 0 -25 11 -45 25 -46 38 -1 120 -75 106 -97 -6 -11 -3 -25 9 -32 11 -7 20 -2 20 10 0 12 9 17 20 10 12 -7 15 -23 7 -34 -8 -14 -4 -16 11 -8 13 9 52 -9 90 -41 147 -125 156 -130 206 -118 32 8 45 5 36 -8 -7 -13 12 -21 50 -21 34 0 57 8 51 18 -6 10 18 11 56 3 54 -12 67 -9 65 14 -1 16 16 40 37 52 21 13 74 55 117 93 43 39 92 67 109 63 21 -4 27 4 18 27 -8 20 -4 27 9 19 11 -7 26 6 32 29 6 23 19 37 28 31 10 -6 28 -5 40 2 16 10 16 18 1 27 -13 8 21 54 82 113 57 54 91 82 74 61 -27 -36 -26 -37 15 -15 30 16 40 35 32 58 -7 19 -5 28 4 20 21 -19 73 24 58 48 -6 10 -4 17 6 15 52 -9 76 3 46 22 -25 17 -23 22 15 32 25 7 45 21 45 32 0 36 116 137 127 111 5 -14 11 -5 11 19 1 25 19 49 42 56 22 7 35 21 29 31 -6 11 6 19 27 19 44 0 113 69 97 96 -7 10 15 43 48 75 32 31 59 45 59 32 0 -14 9 -20 19 -14 11 7 15 24 9 38 -5 15 4 26 21 26 17 0 31 -8 31 -17 0 -10 13 -15 28 -12 28 6 232 -172 232 -202 0 -20 94 -122 114 -125 42 -6 172 -137 136 -137 -52 0 -21 -25 34 -28 26 -1 46 -15 47 -32 0 -16 12 -28 25 -25 13 3 23 -2 22 -10 -8 -48 5 -86 28 -81 36 8 201 -137 185 -162 -8 -13 -1 -17 18 -10 19 8 31 1 31 -17 0 -17 14 -41 30 -55 26 -22 29 -20 17 12 -7 21 -6 32 3 24 8 -8 17 -35 19 -60 1 -25 13 -44 25 -42 13 3 68 -35 122 -85 55 -49 111 -89 124 -89 14 0 19 -14 12 -31 -7 -20 -3 -26 10 -17 13 7 29 3 37 -10 8 -13 62 -29 121 -36 73 -8 102 -6 93 9 -8 13 2 17 26 11 22 -6 65 8 98 32 33 23 65 42 73 42 8 0 32 23 55 51 22 28 52 47 67 41 16 -6 28 0 28 14 0 14 36 56 80 94 44 38 80 78 81 90 2 49 120 161 139 131 10 -17 24 -24 32 -16 7 8 2 28 -12 45 -14 17 -19 37 -12 45 8 8 23 1 34 -16 21 -29 18 -9 -14 104 -8 27 -5 37 9 29 14 -9 20 28 17 115 -2 71 -10 119 -18 106 -8 -12 -17 -18 -21 -12 -4 5 -31 42 -61 83 -30 40 -54 80 -54 88 0 8 -29 40 -65 71 -56 48 -59 56 -25 56 32 1 34 5 11 20 -16 10 -36 14 -44 9 -9 -5 -158 130 -331 301 -173 171 -307 311 -298 311 10 0 -6 19 -35 42 -30 22 -47 51 -40 63 8 14 2 17 -17 10 -20 -8 -68 26 -138 97 -60 61 -94 108 -77 109 20 0 18 7 -9 22 -36 21 -36 24 10 61 26 22 37 34 23 27 -14 -8 -25 -5 -25 5 0 30 52 65 70 49 9 -8 11 -5 4 7 -7 11 19 50 57 86 38 36 69 55 69 42 0 -12 10 -16 21 -9 12 7 17 26 11 42 -8 19 -3 24 12 15 15 -10 19 -3 10 20 -8 20 -6 29 6 22 11 -7 20 -2 20 10 0 12 7 18 16 13 9 -6 29 -2 45 8 22 14 22 18 3 19 -15 0 -21 9 -13 21 7 11 31 15 54 8 32 -11 38 -7 29 18 -8 20 7 47 42 74 30 23 52 49 49 56 -3 7 2 13 10 13 34 1 67 36 57 61 -7 18 0 23 22 15 20 -8 28 -5 20 8 -8 12 5 20 31 18 32 -1 43 8 39 31 -3 19 15 48 40 65 25 18 38 32 31 32 -8 0 5 23 29 50 31 36 48 43 59 26 20 -33 36 -14 41 48 2 27 14 50 25 50 76 -1 93 8 82 42 -7 24 12 58 59 104 38 37 70 76 70 85 0 27 58 79 75 68 8 -5 15 63 15 152 0 111 -8 164 -25 170 -14 5 -25 21 -25 37 0 15 -9 28 -20 28 -11 0 -20 8 -20 19 0 10 -31 53 -70 95 -38 42 -61 79 -50 83 11 3 20 16 20 27 0 11 -14 15 -30 9 -38 -15 -135 66 -121 100 5 14 1 31 -8 36 -10 6 -21 2 -24 -9 -4 -11 -57 21 -117 71 -65 53 -124 87 -144 82 -19 -5 -33 1 -30 14 2 14 -34 25 -94 29 -80 5 -95 1 -86 -24 8 -19 3 -26 -13 -20 -29 11 -244 -135 -297 -203 -22 -27 -50 -42 -67 -36 -22 8 -26 2 -16 -24 11 -28 7 -33 -21 -23 -27 11 -32 6 -23 -24 12 -35 -33 -74 -75 -65 -10 2 -12 -4 -6 -13 16 -26 -195 -218 -227 -208 -18 6 -23 -1 -16 -21 13 -33 -56 -111 -78 -88 -20 19 -66 -26 -55 -54 9 -23 -90 -134 -125 -140 -9 -2 -14 -11 -11 -20 3 -10 -9 -12 -26 -6 -22 9 -30 2 -26 -22 4 -23 -6 -34 -29 -32 -19 1 -29 -6 -23 -17 13 -20 -123 -156 -155 -156 -9 0 -15 -10 -12 -22 3 -12 -25 -26 -62 -30 -60 -7 -67 -4 -57 33 8 30 5 36 -13 22 -25 -21 -228 166 -218 200 3 10 -7 17 -22 17 -14 0 -38 22 -52 48 -16 31 -37 44 -56 37 -23 -8 -26 -1 -16 32 11 33 7 40 -18 31 -22 -9 -31 0 -31 32 0 32 -9 41 -31 32 -17 -6 -35 1 -42 18 -6 17 -24 30 -39 30 -35 0 -37 33 -3 46 14 5 1 19 -31 31 -30 12 -63 43 -73 68 -10 25 -19 33 -20 18 0 -15 -50 21 -111 80 -60 59 -101 110 -90 114 33 11 22 39 -14 36 -19 -2 -46 21 -60 49 -31 63 -86 114 -86 80 0 -12 9 -22 20 -22 11 0 20 -10 20 -22 0 -11 -48 20 -107 70 -59 51 -118 92 -130 92 -13 0 -23 7 -23 15 0 28 -107 65 -186 65 -57 0 -76 -7 -68 -27z m877 -846 l674 -673 625 628 c883 887 838 871 1241 441 292 -310 306 -280 -509 -1098 l-663 -665 652 -655 c854 -857 829 -791 444 -1167 -343 -336 -294 -356 -1122 469 l-665 662 -665 -663 c-838 -836 -776 -812 -1150 -439 l-225 225 0 100 c0 134 -14 117 718 846 l628 626 -651 653 c-850 852 -831 805 -461 1166 210 205 227 216 355 216 l100 1 674 -673z"/>
+                            <path d="M8903 10067 c12 -15 17 -50 12 -77 -5 -28 -3 -55 4 -59 8 -5 16 30 18 77 3 65 -3 85 -26 85 -23 0 -25 -6 -8 -26z"/>
+                            <path d="M8447 9865 c9 -14 6 -25 -7 -25 -14 0 -15 -12 -3 -35 9 -19 14 -46 9 -60 -5 -14 6 -25 27 -25 21 0 28 7 17 15 -11 8 -23 38 -26 65 -5 40 -1 44 15 20 11 -16 21 -20 21 -7 0 12 -15 34 -34 50 -23 18 -29 19 -19 2z"/>
+                            <path d="M8920 9650 c2 -33 3 -64 0 -70 -20 -56 -7 -120 26 -120 22 0 31 -9 22 -23 -9 -15 -5 -18 12 -7 21 13 20 21 -5 39 -21 15 -32 55 -32 119 0 52 -6 101 -13 109 -8 7 -12 -14 -10 -47z"/>
+                            <path d="M8415 9651 c-31 -23 -32 -29 -5 -51 24 -20 32 -19 42 7 19 51 1 73 -37 44z"/>
+                            </g>
+                        </svg>
+                        <span class="erasefunction" id="clear1">Clear</span>
+                    </button>
+                    <svg class="BaseSvg-sc-yh8lnd-0 MagnifyingGlassIcon___StyledBaseSvg-sc-1pooy9n-0 lirSVu sc-12ebniq-5 lbaJhQ" id="magglassicon" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false">
+                        <path d="m15.56 14.35 5.19 5.19a.86.86 0 0 1-1.21 1.2l-5.2-5.18a7.02 7.02 0 1 1 1.22-1.21zm-.23-4.33a5.31 5.31 0 1 0-10.62 0 5.31 5.31 0 0 0 10.62 0z">
+                        </path>
+                    </svg>
+                </div>
+            </form>
+        </div>
+        <div class="whole main content" id="wholemain">
+            <main id="maincontent" class="maincontenteverything">
+                <span class="VisuallyHidden" id="visuallyhidden2">
+                    <h1 class="main result text">4 events for YEAT</h1>
+                </span>
+                <div class="main section" id="mainsection">
+                    <div class="first section of main" id="firstsectionmain">
+                        <div class="upper first section main" id="upperfirstsectionmain">
+                            <h2 class="upper first section text" id="upperfirstsectiontext">Top Result</h2>
+                        </div>
+                        <div class="lower first section main" id="lowerfirstsectionmain">
+                            <div class="inner of lower first main" id="innerlowerfirstsectionmain">
+                                <ul class="whole image and text content" id="leftsidefirstsectionmain">
+                                    <li class="actual image and text content" id="imagetextcontent1">
+                                        <a href="artistpage.html" class="picture link" id="picturelink">
+                                            <div class="whole image content" id="wholeimagecontent">
+                                                <div class="image content">
+                                                    <img src="http://www.laut.de/Yeat/yeat-216442.jpg" alt="YEAT" class="actual image" id="imageofyeat">
+                                                </div>
+                                                <svg class="BaseSvg-sc-yh8lnd-0 ChevronIcon___StyledBaseSvg-sc-1y4em6t-0 lirSVu sc-eywb9q-2 hBtEMX" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false">
+                                                    <path d="M6.99 9.16a.6.6 0 0 0-.4-.16.6.6 0 0 0-.42.16.5.5 0 0 0-.17.37c0 .14.07.28.17.37l5.45 4.92c.04.06.09.1.15.15.14.05.3.05.44 0a.6.6 0 0 0 .18-.11l5.45-4.92a.5.5 0 0 0 .16-.37.5.5 0 0 0-.16-.37.6.6 0 0 0-.41-.16.6.6 0 0 0-.41.16l-5.03 4.46-5-4.5Z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="genre" id="musicgenre">Rap/HipHop</span>
+                                            <h3 class="artist name" id="artistname">YEAT</h3>
+                                            <p class="num results found" id="numberresults">4 events</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pageInfo" class="dates of shows">
+                        <div class="upper 2 section main" id="upper2sectionmain">
+                            <h2 class="upcomingeventsinfo" id="upcomingeventsinfo">
+                                <span id="numberEvents" class="sc-pdz5wo-2 gLpJLD">
+                                    4
+                                    <!-- -->
+                                </span>
+                                Upcoming Events
+                            </h2>
+                            <div class="sc-pdz5wo-4 fMkQlq" id="selectDateOuter">
+                                <div class="sc-ar1sv3-2 cRhoNR" id="selectDate">
+                                    <div class="SingleDatePicker_1" id="SingleDatePicker">
+                                        <div>
+                                            <div class="SingleDatePickerInput_1" id="SingleDatePickerInput">
+                                            <button class="SingleDatePickerInput_calendarIcon" id="SingleDatePickerInput_calanderIcon" type="button">
+                                                <svg class="CalendarIcon___StyledBaseSvg" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false" id="CalenderIconStyle">
+                                                    <path d="M8 2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h1Zm0 1H7v3h1V3Zm14 2.5c0-.83-.67-1.5-1.5-1.5H19v1h1.59a.5.5 0 0 1 .41.5V9H3V5.41A.5.5 0 0 1 3.5 5H5V4H3.5C2.67 4 2 4.67 2 5.5v15c0 .83.67 1.5 1.5 1.5h17c.83 0 1.5-.67 1.5-1.5v-15ZM3 10h18v10.59a.5.5 0 0 1-.5.41H3.41a.5.5 0 0 1-.41-.5V10Zm11-5V4h-4v1h4Zm4-2a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V3Zm-2 0h1v3h-1V3Zm-8 8.5c.28 0 .5.22.5.5v3a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5v-3c0-.28.22-.5.5-.5h3Zm-.5 1h-2v2h2v-2Z">
+                                                    </path>
+                                                </svg>
+                                                <span class="VisuallyHidden-sc-8buqks-0 czYYsv" id="visuallyhidden2">Open Date Picker</span>
+                                            </button>
+                                            <div class="DateInput_1" id="DateInput">
+                                                <input class="DateInput_input__small" aria-label="Select Date" type="text" id="date" name="date" placeholder="Select Date" autocomplete="off" aria-describedby="DateInput__screen-reader-message-date" value>
+                                                <p class="DateInput_screenReaderMessage DateInput_screenReaderMessage_1" id="DateInput__screen-reader-message-date">Select Date</p>
+                                            </div>
+                                            <button class="SingleDatePickerInput_clearDate SingleDatePickerInput_clearDate_1 SingleDatePickerInput_clearDate__small SingleDatePickerInput_clearDate__small_2 SingleDatePickerInput_clearDate__hide SingleDatePickerInput_clearDate__hide_3" id="ClearDate" type="button" aria-label="Clear Date">
+                                                <svg class="BaseSvg-sc-yh8lnd-0 CrossIcon___StyledBaseSvg-sc-4hkemq-0 lirSVu sc-ar1sv3-1 bGmabV" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false" id="CrossIcon">
+                                                    <path d="M12 10.63 16.63 6 18 7.37 13.37 12 18 16.63 16.63 18 12 13.37 7.37 18 6 16.63 10.63 12 6 7.37 7.37 6 12 10.63z">
+                                                    </path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="sc-1a3rakz-0 kIzpx" id="resultstab1main">
+                        <div class="sc-1ho09m0-0 cNmuKR" id="RegionTitleOuter">
+                            <h3 class="sc-1ho09m0-1 bcGkjt" id="RegionTitle">United Kingdom</h3>
+                            <span class="sc-1ho09m0-2 dMVkNA" id="EventsTitle">4 Events</span>
+                        </div>
+                        <div class="sc-3tfyju-0 ipTcMN" id="resultstab2main">
+                            <ul id="eventList" class="sc-1nyzlro-0 uCfcp">
+                                <li class="VENUE1" id="VENUE1">
+                                    <div class="venue1border" id="venue1border">
+                                        <div class="venue1main" id="venue1main">
+                                            <span class="VisuallyHidden" id="visuallyhidden3">31/03/2023</span>
+                                            <div aria-hidden="true" class="venue1date" id="venue1date">
+                                                <div class="venue1month" id="venue1month">Mar</div>
+                                                <div class="venue1day" id="venue1day">31</div>
+                                                <div>2023</div>
+                                            </div>
+                                            <div class="venue1infoMain" id="venue1infoMain">
+                                                <div class="venue1day-timeMain" id="venue1day-timeMain">
+                                                    <span class="venue1date-time" id="venue1date-time">
+                                                        <span class="visuallyhidden4" id="visuallyhidden4">Friday 19:00</span>
+                                                        <span aria-hidden="true">
+                                                            <span>Fri</span>
+                                                            <span class="time-venue1" id="time-venue1">19:00</span>
+                                                        </span>
+                                                    </span>
+                                                    <button class="moreinfo-venue1" id="moreinfo-venue1">
+                                                        <span class="visuallyhidden5" id="visuallyhidden5">
+                                                            Open additional information for 
+                                                            <span class="visuallyhidden6" id="visullyhidden6">
+                                                                YEAT Birmingham O2 Academy Birmingham <!-- -->31/03/2023, 19:00
+                                                            </span>
+                                                        </span>
+                                                        <svg class="information-icon1" id="information-icon1" viewBox="0 0 24 24" width="1.2em" height="1.2em" aria-hidden="true" focusable="false">
+                                                            <path d="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22zm.93 8.7h-.1l-.1.02-.17.02a5.08 5.08 0 0 1-.1.02l-2.99.57-.08.02a.55.55 0 0 0-.18.13.45.45 0 0 0-.1.27v1.4c.02.1.05.17.1.2.09.07.16.04.3 0 .4-.07.9-.2 1.54-.35-1.1 2.77-1.76 4.36-.4 5.5.96.7 2.36.32 4.2-1.16a.14.14 0 0 0 .03-.2l-.51-.64-.04-.04a.14.14 0 0 0-.1-.01l-.05.02-.2.13c-1.08.69-1.78.85-2.08.5-.32-.39.35-1.94 1.53-5.2.02-.04.1-.3.1-.34.06-.28.02-.45-.1-.6a.62.62 0 0 0-.6-.26zM12 5.8a1.38 1.38 0 1 0 0 2.75 1.38 1.38 0 0 0 0-2.75z">
+                                                            </path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <span class="artistnameMain-venue1" id="artistnameMain-venue1">
+                                                        <span class="artistname-venue1" id="artistname-venue1">YEAT</span>
+                                                    </span>
+                                                    <span class="locationMain-venue1" id="locationMain-venue1">
+                                                        <span class="location-venue1" id="location-venue1">Birmingham</span>
+                                                        <span class="venue1Name" id="venue1Name">O2 Academy Birmingham</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="findticketsMain-venue1" id="findticketsMain-venue1">
+                                                <a href="https://www.youtube.com/" id="EventListLink-venue1" class="indexstyles__StyledButton-sc-83qv1q-0 fElLEi sc-1qeub3n-3 fhlzPF" type="button">
+                                                    <span class="findtickets-flexwrapper1" id="findtickets-flexwrapper1">
+                                                        <span class="findtickets-textMainOuter1" id="findtickets-textMainOuter1">
+                                                            <span class="findtickets-textMainInner1" id="findtickets-textMainInner1">
+                                                                <span class="findtickets-text-venue1" id="findtickets-text-venue1">Find tickets</span>
+                                                            </span>
+                                                            <svg class="arrow-icon1" id="arrowicon1" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false">
+                                                                <path d="M6.99 9.16a.6.6 0 0 0-.4-.16.6.6 0 0 0-.42.16.5.5 0 0 0-.17.37c0 .14.07.28.17.37l5.45 4.92c.04.06.09.1.15.15.14.05.3.05.44 0a.6.6 0 0 0 .18-.11l5.45-4.92a.5.5 0 0 0 .16-.37.5.5 0 0 0-.16-.37.6.6 0 0 0-.41-.16.6.6 0 0 0-.41.16l-5.03 4.46-5-4.5Z">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="visuallyhidden7" id="visuallyhidden7">YEAT Birmingham O2 Academy Birmingham<!-- -->31/03/2023, 19:00</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div hidden>
+                                        <div class="sc-cqhbd7-0 loccXB">
+                                            <p class="sc-cqhbd7-1 iuMEa-D">Lineup</p>
+                                            <ul class="sc-cqhbd7-3 eaIKmN">
+                                                <li class="sc-cqhbd7-5 iABhcB"><a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">YEAT</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="sc-cqhbd7-0 loccXB">
+                                            <p class="sc-cqhbd7-1 iuMEa-D">Venue</p>
+                                            <p class="sc-cqhbd7-2 cJTdJp">
+                                                <a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">O2 Academy Birmingham</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="VENUE2">
+                                    <div class="venue2border">
+                                        <div class="venue2main">
+                                            <span class="visuallyhidden8">01/04/2023</span>
+                                            <div aria-hidden="true" class="venue2date">
+                                                <div class="venue2month">Apr</div>
+                                                <div class="venue2day">01</div>
+                                                <div>2023</div>
+                                            </div>
+                                            <div class="venue2day-timeMain">
+                                                <div class="---">
+                                                    <span class="venue2date-time">
+                                                        <span class="visuallyhidden9">Saturday 18:30</span>
+                                                        <span aria-hidden="true">
+                                                            <span>Sat</span>
+                                                            <span class="time-venue2">18:30</span>
+                                                        </span>
+                                                    </span>
+                                                    <button class="moreinfo-venue2">
+                                                        <span class="visuallyhidden10">
+                                                            Open additional information for 
+                                                            <span class="visuallyhidden11">
+                                                                YEAT London Wembley Stadium London <!-- -->01/04/2023, 18:30
+                                                            </span>
+                                                        </span>
+                                                        <svg class="information-icon2" viewBox="0 0 24 24" width="1.2em" height="1.2em" aria-hidden="true" focusable="false">
+                                                            <path d="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22zm.93 8.7h-.1l-.1.02-.17.02a5.08 5.08 0 0 1-.1.02l-2.99.57-.08.02a.55.55 0 0 0-.18.13.45.45 0 0 0-.1.27v1.4c.02.1.05.17.1.2.09.07.16.04.3 0 .4-.07.9-.2 1.54-.35-1.1 2.77-1.76 4.36-.4 5.5.96.7 2.36.32 4.2-1.16a.14.14 0 0 0 .03-.2l-.51-.64-.04-.04a.14.14 0 0 0-.1-.01l-.05.02-.2.13c-1.08.69-1.78.85-2.08.5-.32-.39.35-1.94 1.53-5.2.02-.04.1-.3.1-.34.06-.28.02-.45-.1-.6a.62.62 0 0 0-.6-.26zM12 5.8a1.38 1.38 0 1 0 0 2.75 1.38 1.38 0 0 0 0-2.75z">
+                                                            </path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <span class="artistnameMain-venue2">
+                                                        <span class="artistname-venue2">YEAT</span>
+                                                    </span>
+                                                    <span class="locationMain-venue2">
+                                                        <span class="location-venue2">London</span>
+                                                        <span class="venue2Name">Wembley Stadium London</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="findticketsMain-venue2">
+                                                <a href="https://www.youtube.com/" data-testid="EventListLink-venue2" class="indexstyles__StyledButton-sc-83qv1q-0 fElLEi sc-1qeub3n-3 fhlzPF" type="button">
+                                                    <span class="findtickets-flexwrapper2">
+                                                        <span class="findtickets-textMainOuter2">
+                                                            <span class="findtickets-textMainInner2">
+                                                                <span class="findtickets-text-venue2">Find tickets</span>
+                                                            </span>
+                                                            <svg class="arrow-icon2" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false">
+                                                                <path d="M6.99 9.16a.6.6 0 0 0-.4-.16.6.6 0 0 0-.42.16.5.5 0 0 0-.17.37c0 .14.07.28.17.37l5.45 4.92c.04.06.09.1.15.15.14.05.3.05.44 0a.6.6 0 0 0 .18-.11l5.45-4.92a.5.5 0 0 0 .16-.37.5.5 0 0 0-.16-.37.6.6 0 0 0-.41-.16.6.6 0 0 0-.41.16l-5.03 4.46-5-4.5Z">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="visuallyhidden12">YEAT London Wembley Stadium London<!-- -->01/04/2023, 18:30</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div hidden="">
+                                        <div class="sc-cqhbd7-0 loccXB">
+                                            <p class="sc-cqhbd7-1 iuMEa-D">Lineup</p>
+                                            <ul class="sc-cqhbd7-3 eaIKmN">
+                                                <li class="sc-cqhbd7-5 iABhcB"><a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">YEAT</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sc-cqhbd7-0 loccXB">
+                                        <p class="sc-cqhbd7-1 iuMEa-D">Venue</p>
+                                        <p class="sc-cqhbd7-2 cJTdJp">
+                                            <a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">Wembley Stadium London</a>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="VENUE3">
+                                    <div class="sc-fyofxi-0 jDObMe">
+                                        <div class="sc-fyofxi-3 hoFGDH">
+                                            <span class="VisuallyHidden-sc-8buqks-0 czYYsv">13/04/2023</span>
+                                            <div aria-hidden="true" class="sc-1evs0j0-0 kEBgxI">
+                                                <div class="sc-1evs0j0-1 cMYYXd">Apr</div>
+                                                <div class="sc-1evs0j0-2 fuMsaq">13</div>
+                                                <div>2023</div>
+                                            </div>
+                                            <div class="sc-fyofxi-4 etIdxT">
+                                                <div class="Flex-sc-mx5re3-0 UXpLd">
+                                                    <span class="sc-1idcr5x-0 bYJEwo">
+                                                        <span class="VisuallyHidden-sc-8buqks-0 czYYsv">Thursday 18:30</span>
+                                                        <span aria-hidden="true">
+                                                            <span>Thu</span>
+                                                            <span class="sc-1idcr5x-1 kthLqv">18:30</span>
+                                                        </span>
+                                                    </span>
+                                                    <button class="sc-12yab8l-0 fIgGdq">
+                                                        <span class="VisuallyHidden-sc-8buqks-0 czYYsv">
+                                                            Open additional information for 
+                                                            <span class="VisuallyHidden-sc-8buqks-0 czYYsv">
+                                                                YEAT Kentish Town 02 Forum Kentish Town <!-- -->01/04/2023, 18:30
+                                                            </span>
+                                                        </span>
+                                                        <svg class="BaseSvg-sc-yh8lnd-0 InfoICircledFilledIcon___StyledBaseSvg-sc-1dezxte-0 lirSVu sc-12yab8l-1 bcWrBx" viewBox="0 0 24 24" width="1.2em" height="1.2em" aria-hidden="true" focusable="false">
+                                                            <path d="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22zm.93 8.7h-.1l-.1.02-.17.02a5.08 5.08 0 0 1-.1.02l-2.99.57-.08.02a.55.55 0 0 0-.18.13.45.45 0 0 0-.1.27v1.4c.02.1.05.17.1.2.09.07.16.04.3 0 .4-.07.9-.2 1.54-.35-1.1 2.77-1.76 4.36-.4 5.5.96.7 2.36.32 4.2-1.16a.14.14 0 0 0 .03-.2l-.51-.64-.04-.04a.14.14 0 0 0-.1-.01l-.05.02-.2.13c-1.08.69-1.78.85-2.08.5-.32-.39.35-1.94 1.53-5.2.02-.04.1-.3.1-.34.06-.28.02-.45-.1-.6a.62.62 0 0 0-.6-.26zM12 5.8a1.38 1.38 0 1 0 0 2.75 1.38 1.38 0 0 0 0-2.75z">
+                                                            </path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <span class="sc-fyofxi-6 kXKDXD">
+                                                        <span class="sc-fyofxi-5 bZRRFX">YEAT</span>
+                                                    </span>
+                                                    <span class="sc-fyofxi-7 hNDkva">
+                                                        <span class="sc-fyofxi-5 bZRRFX">Kentish Town</span>
+                                                        <span class="sc-fyofxi-5 bZRRFX">02 Forum Kentish Town</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="sc-erggfp-0 LtkHw">
+                                                <a href="https://www.youtube.com/" data-testid="event-list-link" class="indexstyles__StyledButton-sc-83qv1q-0 fElLEi sc-1qeub3n-3 fhlzPF" type="button">
+                                                    <span class="indexstyles__FlexWrapper-sc-83qv1q-1 cNExrK">
+                                                        <span class="indexstyles__Text-sc-83qv1q-2 dbVWpK">
+                                                            <span class="sc-1qeub3n-5 kEDHQs">
+                                                                <span class="sc-1qeub3n-4 iuiUoN">Find tickets</span>
+                                                            </span>
+                                                            <svg class="BaseSvg-sc-yh8lnd-0 ChevronIcon___StyledBaseSvg-sc-1y4em6t-0 lirSVu sc-1qeub3n-2 cprbfm" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false">
+                                                                <path d="M6.99 9.16a.6.6 0 0 0-.4-.16.6.6 0 0 0-.42.16.5.5 0 0 0-.17.37c0 .14.07.28.17.37l5.45 4.92c.04.06.09.1.15.15.14.05.3.05.44 0a.6.6 0 0 0 .18-.11l5.45-4.92a.5.5 0 0 0 .16-.37.5.5 0 0 0-.16-.37.6.6 0 0 0-.41-.16.6.6 0 0 0-.41.16l-5.03 4.46-5-4.5Z">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="VisuallyHidden-sc-8buqks-0 czYYsv">YEAT Kentish Town 02 Forum Kentish Town<!-- -->01/04/2023, 18:30</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div hidden="">
+                                        <div class="sc-cqhbd7-0 loccXB">
+                                            <p class="sc-cqhbd7-1 iuMEa-D">Lineup</p>
+                                            <ul class="sc-cqhbd7-3 eaIKmN">
+                                                <li class="sc-cqhbd7-5 iABhcB"><a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">YEAT</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sc-cqhbd7-0 loccXB">
+                                        <p class="sc-cqhbd7-1 iuMEa-D">Venue</p>
+                                        <p class="sc-cqhbd7-2 cJTdJp">
+                                            <a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">Wembley Stadium London</a>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="VENUE4">
+                                    <div class="sc-fyofxi-0 jDObMe">
+                                        <div class="sc-fyofxi-3 hoFGDH">
+                                            <span class="VisuallyHidden-sc-8buqks-0 czYYsv">22/04/2023</span>
+                                            <div aria-hidden="true" class="sc-1evs0j0-0 kEBgxI">
+                                                <div class="sc-1evs0j0-1 cMYYXd">Apr</div>
+                                                <div class="sc-1evs0j0-2 fuMsaq">22</div>
+                                                <div>2023</div>
+                                            </div>
+                                            <div class="sc-fyofxi-4 etIdxT">
+                                                <div class="Flex-sc-mx5re3-0 UXpLd">
+                                                    <span class="sc-1idcr5x-0 bYJEwo">
+                                                        <span class="VisuallyHidden-sc-8buqks-0 czYYsv">Saturday 19:00</span>
+                                                        <span aria-hidden="true">
+                                                            <span>Sat</span>
+                                                            <span class="sc-1idcr5x-1 kthLqv">19:00</span>
+                                                        </span>
+                                                    </span>
+                                                    <button class="sc-12yab8l-0 fIgGdq">
+                                                        <span class="VisuallyHidden-sc-8buqks-0 czYYsv">
+                                                            Open additional information for 
+                                                            <span class="VisuallyHidden-sc-8buqks-0 czYYsv">
+                                                                YEAT Brixton 02 Academy Brixton <!-- -->22/04/2023, 19:00
+                                                            </span>
+                                                        </span>
+                                                        <svg class="BaseSvg-sc-yh8lnd-0 InfoICircledFilledIcon___StyledBaseSvg-sc-1dezxte-0 lirSVu sc-12yab8l-1 bcWrBx" viewBox="0 0 24 24" width="1.2em" height="1.2em" aria-hidden="true" focusable="false">
+                                                            <path d="M12 1a11 11 0 1 1 0 22 11 11 0 0 1 0-22zm.93 8.7h-.1l-.1.02-.17.02a5.08 5.08 0 0 1-.1.02l-2.99.57-.08.02a.55.55 0 0 0-.18.13.45.45 0 0 0-.1.27v1.4c.02.1.05.17.1.2.09.07.16.04.3 0 .4-.07.9-.2 1.54-.35-1.1 2.77-1.76 4.36-.4 5.5.96.7 2.36.32 4.2-1.16a.14.14 0 0 0 .03-.2l-.51-.64-.04-.04a.14.14 0 0 0-.1-.01l-.05.02-.2.13c-1.08.69-1.78.85-2.08.5-.32-.39.35-1.94 1.53-5.2.02-.04.1-.3.1-.34.06-.28.02-.45-.1-.6a.62.62 0 0 0-.6-.26zM12 5.8a1.38 1.38 0 1 0 0 2.75 1.38 1.38 0 0 0 0-2.75z">
+                                                            </path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div>
+                                                    <span class="sc-fyofxi-6 kXKDXD">
+                                                        <span class="sc-fyofxi-5 bZRRFX">YEAT</span>
+                                                    </span>
+                                                    <span class="sc-fyofxi-7 hNDkva">
+                                                        <span class="sc-fyofxi-5 bZRRFX">Brixton</span>
+                                                        <span class="sc-fyofxi-5 bZRRFX">02 Academy Brixton</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="sc-erggfp-0 LtkHw">
+                                                <a href="https://www.youtube.com/" data-testid="event-list-link" class="indexstyles__StyledButton-sc-83qv1q-0 fElLEi sc-1qeub3n-3 fhlzPF" type="button">
+                                                    <span class="indexstyles__FlexWrapper-sc-83qv1q-1 cNExrK">
+                                                        <span class="indexstyles__Text-sc-83qv1q-2 dbVWpK">
+                                                            <span class="sc-1qeub3n-5 kEDHQs">
+                                                                <span class="sc-1qeub3n-4 iuiUoN">Find tickets</span>
+                                                            </span>
+                                                            <svg class="BaseSvg-sc-yh8lnd-0 ChevronIcon___StyledBaseSvg-sc-1y4em6t-0 lirSVu sc-1qeub3n-2 cprbfm" viewBox="0 0 24 24" width="1.5em" height="1.5em" aria-hidden="true" focusable="false">
+                                                                <path d="M6.99 9.16a.6.6 0 0 0-.4-.16.6.6 0 0 0-.42.16.5.5 0 0 0-.17.37c0 .14.07.28.17.37l5.45 4.92c.04.06.09.1.15.15.14.05.3.05.44 0a.6.6 0 0 0 .18-.11l5.45-4.92a.5.5 0 0 0 .16-.37.5.5 0 0 0-.16-.37.6.6 0 0 0-.41-.16.6.6 0 0 0-.41.16l-5.03 4.46-5-4.5Z">
+                                                                </path>
+                                                            </svg>
+                                                            <span class="VisuallyHidden-sc-8buqks-0 czYYsv">YEAT Brixton 02 Academy Brixton<!-- -->22/04/2023, 19:00</span>
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div hidden="">
+                                        <div class="sc-cqhbd7-0 loccXB">
+                                            <p class="sc-cqhbd7-1 iuMEa-D">Lineup</p>
+                                            <ul class="sc-cqhbd7-3 eaIKmN">
+                                                <li class="sc-cqhbd7-5 iABhcB"><a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">YEAT</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="sc-cqhbd7-0 loccXB">
+                                        <p class="sc-cqhbd7-1 iuMEa-D">Venue</p>
+                                        <p class="sc-cqhbd7-2 cJTdJp">
+                                            <a href="selling.html" class="Link__StyledLink-sc-pudy0l-0 grQZNW sc-cqhbd7-6 eDpwQL">02 Academy Brixton</a>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            
+            
+            
+            
+            <div class="advert whole" id="adWhole">
+                <div class="advert outer" id="adOuter">
+                    <div class="advert inner" id="adInner1">
+                        <div aria-hidden="true" id="adInner2">
+                            <div id="adslot" class="advert slot"></div>
+                            <div class="advert text" id="adtext">Advertisement</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <footer id="footer">
+        <div class="container">
+          <div class="subcontainer">
+            <div class="footer-wrapper">
+              <div class="footer-box fb1">
+                <div>
+                  <div class="info">
+                    <div class="brand">
+                      <h1>GoTicket</h1>
+                    </div>
+                    <p>We create possibilites</p>
+                    <p>for the aspiring Performers & Viewers.</p>
+                    <span>Never settle.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-box fb2">
+                <h3>EXPLORE</h3>
+                <div class="info">
+                  <a href="homepage.html">Home</a>
+                  <a href="https://www.bcu.ac.uk">About</a>
+                  <a href="https://www.bcu.ac.uk">Contact</a>
+                </div>
+              </div>
+              <div class="footer-box fb3">
+                <h3>VISIT</h3>
+                <address>
+                  <p>Somewhere</p>
+                  <p>In The World.</p>
+                  <p>0121 7473937647438</p>
+                </address>
+              </div>
+              <div class="footer-box fb4">
+                <h3>FOLLOW</h3>
+                <div class="info">
+                  <a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
+                  <a href="https://www.facebook.com"><i class="fab fa-facebook"></i> Facebook</a>
+                  <a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+              </div>
+              <div class="footer-box fb5">
+                <h3>QUICK LINKS</h3>
+                <div class="info">
+                  <a href="">Donate money</a>
+                </div>
+              </div>
+            </div>
+            <div class="rights">
+              <p><i class="far fa-copyright"></i> 2022 GoTicket. All Rights Reserved.</p>
+            </div>
+                          
+          </div>
+        </div>
+      </footer>
+
+</body>
